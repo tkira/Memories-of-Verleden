@@ -7,8 +7,6 @@ public class CameraFollow : MonoBehaviour {
 	public float smoothTimeX;
 	public float smoothTimeY;
 
-	Camera myCam;
-
 	public GameObject Player;
 
 	public bool bounds;
@@ -17,7 +15,6 @@ public class CameraFollow : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		myCam = GetComponent<Camera> ();
 		Player = GameObject.FindGameObjectWithTag ("Player");
 	}
 	
