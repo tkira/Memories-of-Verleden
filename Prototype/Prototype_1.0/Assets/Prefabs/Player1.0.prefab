@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4854658015296700}
   - component: {fileID: 212450984494178334}
   - component: {fileID: 114757888817928514}
+  - component: {fileID: 114723927767238252}
   - component: {fileID: 114324578544477466}
   - component: {fileID: 50508306835302764}
   - component: {fileID: 58932771131764262}
@@ -113,7 +114,19 @@ MonoBehaviour:
   Combo1: SwordCombo1
   Combo2: SwordCombo2
   Combo3: SwordCombo3
-  Combo4: SpinAttack
+--- !u!114 &114723927767238252
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1224155678331746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7028f521d7ba8745b278b38ca04cc5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMaxHealth: 100
+  playerCurrentHealth: 0
 --- !u!114 &114757888817928514
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -125,9 +138,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 019e65609d17c4516885a243a9074e3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 95277505895530458}
   DashVelocity: 0.5
-  rigBody: {fileID: 0}
+  moveSpeed: 0
   facingRightFlip: 1
   facingRight: 1
   facingUp: 1
