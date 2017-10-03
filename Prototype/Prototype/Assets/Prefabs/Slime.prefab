@@ -9,24 +9,24 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1713390751100078}
+  m_RootGameObject: {fileID: 1242306279036812}
   m_IsPrefabParent: 1
---- !u!1 &1713390751100078
+--- !u!1 &1242306279036812
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 224859883036100946}
-  - component: {fileID: 212344802200417512}
-  - component: {fileID: 95263298658244948}
-  - component: {fileID: 50643480488416270}
-  - component: {fileID: 114797862786036320}
-  - component: {fileID: 114587970256561736}
-  - component: {fileID: 114493241437384722}
-  - component: {fileID: 58831390677471468}
-  - component: {fileID: 222450879335576540}
+  - component: {fileID: 224467956860521546}
+  - component: {fileID: 212360376392758016}
+  - component: {fileID: 95519357648912114}
+  - component: {fileID: 50407031401044386}
+  - component: {fileID: 114854498618335150}
+  - component: {fileID: 114623231424805156}
+  - component: {fileID: 114955281820281454}
+  - component: {fileID: 58030203785945906}
+  - component: {fileID: 222903873629846534}
   m_Layer: 0
   m_Name: Slime
   m_TagString: Enemy
@@ -34,13 +34,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!50 &50643480488416270
+--- !u!50 &50407031401044386
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1713390751100078}
+  m_GameObject: {fileID: 1242306279036812}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -54,12 +54,12 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &58831390677471468
+--- !u!58 &58030203785945906
 CircleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1713390751100078}
+  m_GameObject: {fileID: 1242306279036812}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -69,13 +69,13 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.08
---- !u!95 &95263298658244948
+--- !u!95 &95519357648912114
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1713390751100078}
+  m_GameObject: {fileID: 1242306279036812}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 61d2294a38226ad4e94eff4dfbc75fe2, type: 2}
@@ -86,12 +86,37 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114493241437384722
+--- !u!114 &114623231424805156
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1713390751100078}
+  m_GameObject: {fileID: 1242306279036812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23218b89d809a2945b1ccc31b736b1af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 10
+--- !u!114 &114854498618335150
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1242306279036812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7abcf0111ae1e6542b608468d0453437, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monsterMaxHealth: 100
+  monsterHealth: 0
+--- !u!114 &114955281820281454
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1242306279036812}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 476cf4aa4f5e9d94c8e4f0a8ce8e06d5, type: 3}
@@ -100,37 +125,12 @@ MonoBehaviour:
   moveSpeed: 1
   timeBetweenMove: 1
   timeToMove: 1
---- !u!114 &114587970256561736
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1713390751100078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d774bd065a50cb849a42e12b9fbeb215, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 5
---- !u!114 &114797862786036320
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1713390751100078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7abcf0111ae1e6542b608468d0453437, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  monsterMaxHealth: 100
-  monsterHealth: 0
---- !u!212 &212344802200417512
+--- !u!212 &212360376392758016
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1713390751100078}
+  m_GameObject: {fileID: 1242306279036812}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -167,18 +167,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!222 &222450879335576540
+--- !u!222 &222903873629846534
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1713390751100078}
---- !u!224 &224859883036100946
+  m_GameObject: {fileID: 1242306279036812}
+--- !u!224 &224467956860521546
 RectTransform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1713390751100078}
+  m_GameObject: {fileID: 1242306279036812}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.7642303, y: 1.7642303, z: 1.7642303}

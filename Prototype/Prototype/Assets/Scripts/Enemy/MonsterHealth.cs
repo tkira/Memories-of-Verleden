@@ -14,15 +14,13 @@ public class MonsterHealth : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (monsterMaxHealth <= 0) {
+		if (monsterHealth <= 0) {
 			gameObject.SetActive (false);
-
+			Destroy (gameObject);
 		}
 	}
 
 	public void HurtMonster(int damageToGive){
 		monsterHealth -= damageToGive; 
 	}
-		
-
 }

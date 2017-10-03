@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyBehaviour : MonoBehaviour {
 
 	public float moveSpeed;
-
+	public Weapon weap;
 	private Rigidbody2D rigBod2d;
 
 	private bool moving;
@@ -14,6 +14,7 @@ public class EnemyBehaviour : MonoBehaviour {
 	public float timeToMove;
 	private float timeBetweenMoveCounter;
 	private float timeToMoveCounter;
+	public int knockBack;
 
 	private Vector3 moveDirection;
 

@@ -5,6 +5,10 @@ using UnityEngine;
 public class DamagePlayer : MonoBehaviour {
 
 	public int damage;
+	bool keyDelay;
+	public GameObject damageEffect;
+	public Transform hitPoint;
+	public GameObject damageNumber;
 
 	// Use this for initialization
 	void Start () {
@@ -17,8 +21,18 @@ public class DamagePlayer : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D (Collider2D other){
-		if (other.gameObject.name == "Player") {
+		if (other.gameObject.tag == "Player" && keyDelay == false) {
 			other.gameObject.GetComponent<PlayerHealthSystem> ().HurtPlayer (damage);
+			Instantiate (damageEffect, hitPoint.position, hitPoint.rotation);
+			var clone = (GameObject)Instantiate (damageNumber, hitPoint.position, hitPoint.rotation);
+			clone.GetComponent<FloatingNumbers> ().damageNum = damage;
+			StartCoroutine (delay ());
 		}
+	}
+
+	IEnumerator delay(){
+		keyDelay = true;
+		yield return new WaitForSeconds(.3f);
+		keyDelay = false;
 	}
 }
