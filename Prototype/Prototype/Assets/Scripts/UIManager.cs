@@ -26,11 +26,11 @@ public class UIManager : MonoBehaviour {
 	void Update () {
 		healthBar.maxValue = playerHealth.playerMaxHealth;
 		healthBar.value = playerHealth.playerCurrentHealth;
-		HPText.text = "HP: " + playerHealth.playerCurrentHealth + "/" + playerHealth.playerMaxHealth;
+		HPText.text = "" + playerHealth.playerCurrentHealth + "/" + playerHealth.playerMaxHealth;
 
 		healthBarEnemy.maxValue = EnemyHealth.monsterMaxHealth;
 		healthBarEnemy.value = EnemyHealth.monsterHealth;
-		HPTextEnemy.text = "HP: " + EnemyHealth.monsterHealth + "/" + EnemyHealth.monsterMaxHealth;
+		HPTextEnemy.text = "" + EnemyHealth.monsterHealth + "/" + EnemyHealth.monsterMaxHealth;
 
 		if (EnemyHealth.monsterHealth < EnemyHealth.monsterMaxHealth){
 			enemyBar.SetActive(true);
