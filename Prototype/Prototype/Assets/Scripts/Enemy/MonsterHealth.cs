@@ -6,6 +6,7 @@ public class MonsterHealth : MonoBehaviour {
 
 	public int monsterMaxHealth;
 	public int monsterHealth;
+	public PlayerStats playerstats;
 
 	// Use this for initialization
 	void Start () {
@@ -16,6 +17,7 @@ public class MonsterHealth : MonoBehaviour {
 	void Update () {
 		if (monsterHealth <= 0) {
 			gameObject.SetActive (false);
+			playerstats.currentExp++;
 			Destroy (gameObject);
 		}
 	}

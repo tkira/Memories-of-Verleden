@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class PlayerHealthSystem : MonoBehaviour {
 
-	public int playerMaxHealth;
+	public PlayerStats playerStats;
 	public int playerCurrentHealth;
 
 	// Use this for initialization
 	void Start () {
-		playerCurrentHealth = playerMaxHealth;
+		playerCurrentHealth = playerStats.maxHealth;
 	}
 	
 	// Update is called once per frame
@@ -26,6 +26,6 @@ public class PlayerHealthSystem : MonoBehaviour {
 
 
 	public void SetMaxHealth(){
-		playerCurrentHealth = playerMaxHealth;
+		playerCurrentHealth = playerStats.maxHealth;
 	}
 }
