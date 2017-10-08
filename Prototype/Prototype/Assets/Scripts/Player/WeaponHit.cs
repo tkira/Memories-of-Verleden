@@ -8,7 +8,6 @@ public class WeaponHit : MonoBehaviour {
 	public Transform hitPoint;
 	public Weapon weap;
 	public GameObject damageNumber;
-	public ComboCounter comboC;
 
 	// Use this for initialization
 	void Start () {
@@ -24,10 +23,9 @@ public class WeaponHit : MonoBehaviour {
 	{
 		if (other.gameObject.tag == "Enemy") {
 			//Destroy (other.gameObject);
-			comboC.comboCount = comboC.comboCount + 1;
-			other.gameObject.GetComponent<MonsterHealth> ().HurtMonster (weap.comboDam);
+			other.gameObject.GetComponent<MonsterHealth> ().HurtMonster (weap.playerStatDamage);
 			var clone = (GameObject)Instantiate (damageNumber, hitPoint.position, hitPoint.rotation);
-			clone.GetComponent<FloatingNumbers> ().damageNum = weap.comboDam;
+			clone.GetComponent<FloatingNumbers> ().damageNum = weap.playerStatDamage;
 		}
 	}
 }

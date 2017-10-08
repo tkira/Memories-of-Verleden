@@ -19,9 +19,6 @@ public class UIManager : MonoBehaviour {
 	public Text playerExpText;
 	public GameObject expBar;
 
-	public GameObject combos;
-	public ComboCounter comboC;
-
 	// Use this for initialization
 	void Start () {
 		enemyBar.SetActive(false);
@@ -48,11 +45,6 @@ public class UIManager : MonoBehaviour {
 		if (EnemyHealth.monsterHealth <= 0){
 			enemyBar.SetActive(false);
 		}
-
-		if (comboC.comboCount == 1) {
-			combos.SetActive (false);
-		} else if (comboC.comboCount > 1){
-			combos.SetActive(true);
-		}
+			
 	}
 }
