@@ -9,9 +9,14 @@ public class PlayerStats : MonoBehaviour {
 	public int expNeedToLvl;
 	public int totalExp;
 
-	public int Strength;
-	public int maxHealth;
+	public int statPoints;
 
+	public int Strength;
+	public int Vitality;
+	public int Defence;
+
+	public int maxHealth;
+	public AuraEffects arua;
 
 	// Use this for initialization
 	void Start () {
@@ -22,8 +27,30 @@ public class PlayerStats : MonoBehaviour {
 	void Update () {
 		if (currentExp >= expNeedToLvl){
 			currentLvl++;
-			maxHealth = maxHealth + 10; 
+			maxHealth += 10; 
+			statPoints += 5; 
 			gameObject.GetComponent<PlayerHealthSystem> ().SetMaxHealth ();
+
+			arua.lvlUp = true;
+
+			currentExp -= expNeedToLvl;	//Reset Exp bar and keep extra exp
+
+			expNeedToLvl = expNeedToLvl * 2; //Double exp need for next lvl;
 		}
+}
+
+	public void addStrength(){
+		Strength++;
+		statPoints--;
+	}
+
+	public void addVitality(){
+		Vitality++;
+		statPoints--;
+	}
+
+	public void addDefence(){
+		Defence++;
+		statPoints--;
 	}
 }

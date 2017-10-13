@@ -10,10 +10,12 @@ public class UIManager : MonoBehaviour {
 	public PlayerHealthSystem playerHealth;
 	public PlayerStats playerStats;
 
-	public Slider healthBarEnemy;
-	public Text HPTextEnemy;
-	public MonsterHealth EnemyHealth;
-	public GameObject enemyBar;
+	public Slider healthBarMonster;
+	public Text HPTextMonster;
+	public Text monsterName;
+	public GameObject monsterBar;
+	public int monsterHealth;
+	public int monsterMaxHealth;
 
 	public Slider playerExp;
 	public Text playerExpText;
@@ -21,7 +23,7 @@ public class UIManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		enemyBar.SetActive(false);
+		monsterBar.SetActive(false);
 	}
 	
 	// Update is called once per frame
@@ -30,20 +32,20 @@ public class UIManager : MonoBehaviour {
 		healthBar.value = playerHealth.playerCurrentHealth;
 		HPText.text = "" + playerHealth.playerCurrentHealth + "/" + playerStats.maxHealth;
 
-		healthBarEnemy.maxValue = EnemyHealth.monsterMaxHealth;
-		healthBarEnemy.value = EnemyHealth.monsterHealth;
-		HPTextEnemy.text = "" + EnemyHealth.monsterHealth + "/" + EnemyHealth.monsterMaxHealth;
+		healthBarMonster.maxValue = monsterMaxHealth;
+		healthBarMonster.value = monsterHealth;
+		HPTextMonster.text = "" + monsterHealth + "/" + monsterMaxHealth;
 
 		playerExp.maxValue = playerStats.expNeedToLvl;
 		playerExp.value = playerStats.currentExp;
 		playerExpText.text = "" + playerStats.currentExp + "/" + playerStats.expNeedToLvl;
 
-		if (EnemyHealth.monsterHealth < EnemyHealth.monsterMaxHealth){
-			enemyBar.SetActive(true);
+		if (monsterHealth < monsterMaxHealth){
+			monsterBar.SetActive(true);
 		}
 
-		if (EnemyHealth.monsterHealth <= 0){
-			enemyBar.SetActive(false);
+		if (monsterHealth <= 0){
+			monsterBar.SetActive(false);
 		}
 			
 	}
