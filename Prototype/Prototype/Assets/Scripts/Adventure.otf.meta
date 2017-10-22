@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 864d0c91e2fbe2c498fb0d2f9f00c971
+timeCreated: 1507246678
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Adventure
+  fontNames:
+  - Adventure
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
