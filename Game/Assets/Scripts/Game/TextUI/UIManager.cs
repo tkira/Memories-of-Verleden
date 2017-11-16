@@ -5,10 +5,15 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour {
 
+	public bool powerBarFull;
+
 	public Slider healthBar;
 	public Text HPText;
-	public PlayerHealthSystem playerHealth;
 	public PlayerStats playerStats;
+	public PlayerHealthSystem playerHealth;
+
+	public Slider powerBar;
+	public Text powerBarText;
 
 	public Slider healthBarMonster;
 	public Text HPTextMonster;
@@ -29,17 +34,20 @@ public class UIManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		healthBar.maxValue = playerStats.maxHealth;
-		healthBar.value = playerHealth.playerCurrentHealth;
-		HPText.text = "" + playerHealth.playerCurrentHealth + "/" + playerStats.maxHealth;
-
-		healthBarMonster.maxValue = monsterMaxHealth;
-		healthBarMonster.value = monsterHealth;
-		HPTextMonster.text = "" + monsterHealth + "/" + monsterMaxHealth;
+		healthBar.value = playerStats.playerCurrentHealth;
+		HPText.text = "" + playerStats.playerCurrentHealth + "/" + playerStats.maxHealth;
 
 		playerExp.maxValue = playerStats.expNeedToLvl;
 		playerExp.value = playerStats.currentExp;
 		playerExpText.text = "" + playerStats.currentExp + "/" + playerStats.expNeedToLvl;
 
+		powerBar.maxValue = playerStats.maxPowerBar;
+		powerBar.value = playerStats.powerBar;
+		powerBarText.text = "" + playerStats.powerBar + "/" + playerStats.maxPowerBar;
+
+	}
+		
+	public void bossHealth(){
 		if (monsterHealth < monsterMaxHealth){
 			monsterBar.SetActive(true);
 		}
@@ -47,6 +55,9 @@ public class UIManager : MonoBehaviour {
 		if (monsterHealth <= 0){
 			monsterBar.SetActive(false);
 		}
-			
+
+		healthBarMonster.maxValue = monsterMaxHealth;
+		healthBarMonster.value = monsterHealth;
+		HPTextMonster.text = "" + monsterHealth + "/" + monsterMaxHealth;
 	}
 }

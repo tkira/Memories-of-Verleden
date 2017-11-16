@@ -8,10 +8,11 @@ public class WeaponHit : MonoBehaviour {
 	public Transform hitPoint;
 	public GameObject damageNumber;
 
+	private int chance;
+
 	public Weapon weap;
 	public PlayerStats playerStat;
 	private float calculateDamage;
-	public UIManager UI;
 
 	// Use this for initialization
 	void Start () {
@@ -20,7 +21,7 @@ public class WeaponHit : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		calculateDamage = playerStat.Strength + 2;
+		
 	}
 
 	void OnTriggerEnter2D(Collider2D other)
@@ -28,14 +29,23 @@ public class WeaponHit : MonoBehaviour {
 		if (other.gameObject.tag == "Enemy") {
 			//Destroy (other.gameObject);
 			if (weap.keyDelay == true) {
+
+				//Calculate Damage
+				calculateDamage = playerStat.totalDamage;
+
+				chance = Random.Range (0, playerStat.crit);
+				if (chance < playerStat.crit) {
+					calculateDamage = calculateDamage * 2;
+				}
+
 				other.gameObject.GetComponent<MonsterStats> ().HurtMonster ((int)calculateDamage);
 				var clone = (GameObject)Instantiate (damageNumber, hitPoint.position, hitPoint.rotation);
 				clone.GetComponent<FloatingNumbers> ().damageNum = (int)calculateDamage;
 				weap.keyDelay = false;
 
-				UI.monsterName.text = other.gameObject.GetComponent<MonsterStats>().monsterName;
-				UI.monsterHealth = other.gameObject.GetComponent<MonsterStats>().monsterHealth;
-				UI.monsterMaxHealth = other.gameObject.GetComponent<MonsterStats> ().monsterMaxHealth;
+				if (playerStat.powerBar < 100) {
+					playerStat.powerBar = playerStat.powerBar + 10; 
+				}
 			}
 			}
 		}

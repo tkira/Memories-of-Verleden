@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Weapon
+  - Story
   layers:
   - Default
   - TransparentFX
@@ -15,13 +16,13 @@ TagManager:
   - UI
   - 
   - 
-  - Characters
+  - Player
+  - Enemy
   - 
   - 
   - 
   - 
-  - 
-  - Backgrond
+  - Bounds
   - 
   - 
   - 

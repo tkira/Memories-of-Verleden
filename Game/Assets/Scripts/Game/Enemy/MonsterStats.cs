@@ -5,8 +5,10 @@ using UnityEngine;
 public class MonsterStats : MonoBehaviour {
 
 	public string monsterName;
+	public int monsterLvl;
 	public int monsterMaxHealth;
 	public int monsterHealth;
+	public int monsterDamage;
 	public PlayerStats playerstats;
 	public int expToGive;
 

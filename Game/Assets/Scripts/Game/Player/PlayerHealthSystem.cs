@@ -6,27 +6,26 @@ using UnityEngine.SceneManagement;
 public class PlayerHealthSystem : MonoBehaviour {
 
 	public PlayerStats playerStats;
-	public int playerCurrentHealth;
 
 	// Use this for initialization
 	void Start () {
-		playerCurrentHealth = playerStats.maxHealth;
+		playerStats.playerCurrentHealth = playerStats.maxHealth;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (playerCurrentHealth <= 0) {
+		if (playerStats.playerCurrentHealth <= 0) {
 			gameObject.SetActive (false);
 			SceneManager.LoadScene(SceneManager.GetActiveScene().name); // loads current scene
 		}
 	}
 
 	public void HurtPlayer(int damageToGive){
-		playerCurrentHealth -= damageToGive; 
+		playerStats.playerCurrentHealth -= damageToGive; 
 	}
 
 
 	public void SetMaxHealth(){
-		playerCurrentHealth = playerStats.maxHealth;
+		playerStats.playerCurrentHealth = playerStats.maxHealth;
 	}
 }

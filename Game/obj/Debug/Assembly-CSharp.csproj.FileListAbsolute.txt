@@ -94,10 +94,10 @@ C:\Users\tungd\Desktop\5Work\Memories-of-Verleden\Prototype\Prototype\Temp\bin\D
 C:\Users\tungd\Desktop\5Work\Memories-of-Verleden\Prototype\Prototype\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\tungd\Desktop\5Work\Memories-of-Verleden\Prototype\Prototype\obj\Debug\Assembly-CSharp.dll
 C:\Users\tungd\Desktop\5Work\Memories-of-Verleden\Prototype\Prototype\obj\Debug\Assembly-CSharp.pdb
-C:\Users\tungd\Desktop\5Work\Memories-Of-Verleden\Memories-of-Verleden\Game\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
-C:\Users\tungd\Desktop\5Work\Memories-Of-Verleden\Memories-of-Verleden\Game\obj\Debug\Assembly-CSharp.dll
+C:\Users\tungd\Desktop\5Work\5Work\Memories-Of-Verleden\Memories-of-Verleden\Game\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\tungd\Desktop\5Work\Memories-Of-Verleden\Memories-of-Verleden\Game\Temp\bin\Debug\Assembly-CSharp.dll
 C:\Users\tungd\Desktop\5Work\Memories-Of-Verleden\Memories-of-Verleden\Game\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\tungd\Desktop\5Work\Memories-Of-Verleden\Memories-of-Verleden\Game\Temp\bin\Debug\LitJson.dll
 C:\Users\tungd\Desktop\5Work\Memories-Of-Verleden\Memories-of-Verleden\Game\Temp\bin\Debug\nunit.framework.dll
 C:\Users\tungd\Desktop\5Work\Memories-Of-Verleden\Memories-of-Verleden\Game\Temp\bin\Debug\UnityEditor.dll
 C:\Users\tungd\Desktop\5Work\Memories-Of-Verleden\Memories-of-Verleden\Game\Temp\bin\Debug\UnityEngine.Analytics.dll
@@ -125,4 +125,6 @@ C:\Users\tungd\Desktop\5Work\Memories-Of-Verleden\Memories-of-Verleden\Game\Temp
 C:\Users\tungd\Desktop\5Work\Memories-Of-Verleden\Memories-of-Verleden\Game\Temp\bin\Debug\UnityEngine.Timeline.xml
 C:\Users\tungd\Desktop\5Work\Memories-Of-Verleden\Memories-of-Verleden\Game\Temp\bin\Debug\UnityEngine.Analytics.xml
 C:\Users\tungd\Desktop\5Work\Memories-Of-Verleden\Memories-of-Verleden\Game\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\tungd\Desktop\5Work\Memories-Of-Verleden\Memories-of-Verleden\Game\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\tungd\Desktop\5Work\Memories-Of-Verleden\Memories-of-Verleden\Game\obj\Debug\Assembly-CSharp.dll
 C:\Users\tungd\Desktop\5Work\Memories-Of-Verleden\Memories-of-Verleden\Game\obj\Debug\Assembly-CSharp.pdb
