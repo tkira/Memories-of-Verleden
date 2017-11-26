@@ -9,10 +9,6 @@ public class CameraFollow : MonoBehaviour {
 
 	public GameObject Player;
 
-	public bool bounds;
-	public Vector3 minCamPos;
-	public Vector3 maxCamPos;
-
 	// Use this for initialization
 	void Start () {
 		Player = GameObject.FindGameObjectWithTag ("Player");
@@ -25,12 +21,6 @@ public class CameraFollow : MonoBehaviour {
 		float posY = Mathf.SmoothDamp (transform.position.y, Player.transform.position.y, ref velocity.y, smoothTimeY); 
 
 		transform.position = new Vector3 (posX, posY, transform.position.z);
+}
 
-		if (bounds) {
-			transform.position = new Vector3 (Mathf.Clamp (transform.position.x, minCamPos.x, maxCamPos.x),
-				Mathf.Clamp (transform.position.y, minCamPos.y, maxCamPos.y),
-				Mathf.Clamp (transform.position.z, minCamPos.z, maxCamPos.z));	
-		}
 }
-}
-	

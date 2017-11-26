@@ -28,7 +28,14 @@ public class MonsterStats : MonoBehaviour {
 			questManager.enemyKilled = enemyQuestName;
 			playerstats.currentExp = playerstats.currentExp + expToGive;
 			playerstats.totalExp = playerstats.totalExp + expToGive;
+
+			DropHandler itemDrop = new DropHandler();
+			Vector3 currentPosition = transform.position;
+			itemDrop.calcDrop (currentPosition);
+
 			Destroy (gameObject);
+
+
 		}
 	}
 

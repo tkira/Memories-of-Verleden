@@ -8,7 +8,7 @@ public class DialogManager : MonoBehaviour {
 	public GameObject dBox;
 	public Text dText;
 	public Text nameText;
-
+	public PauseGame pause;
 
 	public bool dialogActive;
 
@@ -21,6 +21,12 @@ public class DialogManager : MonoBehaviour {
 	public Image NPC;
 	public Sprite avatar;
 
+	public GameObject image;
+	//public GameObject arc1;
+	//public GameObject arc2;
+	//public GameObject arc3;
+	//public GameObject arc4;
+
 	// Use this for initialization
 	void Start () {
 		currentLine = 0;
@@ -28,21 +34,21 @@ public class DialogManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (dBox.activeInHierarchy == true) {
-			Time.timeScale = 0;
-		} else {
-			Time.timeScale = 1;
-		}
-
 		if (dialogActive && Input.GetKeyUp (KeyCode.Space)) {
 			//dBox.SetActive (false);
 			//dialogActive = false;
 			currentLine++;
 		}
 		if (currentLine >= dialogLines.Length) {
-			dBox.SetActive (false);
 			dialogActive = false;
+			dBox.SetActive (false);
 			currentLine = 0;
+			pause.pauseGame (false);
+			image.SetActive (false);
+			//arc1.SetActive (false);
+			//arc2.SetActive (false);
+			//arc3.SetActive (false);
+			//.SetActive (false);
 		}
 		if (dialogActive == true) {
 			dText.text = dialogLines [currentLine];
@@ -62,6 +68,7 @@ public class DialogManager : MonoBehaviour {
 		dialogActive = true;
 		dBox.SetActive (true);
 		dText.text = dialogue;
+		pause.pauseGame (true);
 	}
 
 	public void showDialogue(){
@@ -69,5 +76,6 @@ public class DialogManager : MonoBehaviour {
 		dBox.SetActive (true);
 		NPC.sprite = avatar;
 		currentLine = 0;
+		pause.pauseGame (true);
 	}
 }

@@ -34,6 +34,26 @@ public class PlayerStats : MonoBehaviour {
 	public int playerCurrentHealth;
 	public AuraEffects arua;
 
+	public int memoryCount;
+
+	public Transform hitPoint;
+	public GameObject damageNumber;
+
+	public int skillHeal;
+	public int skillHealCD;
+
+	public int skillPowerStrike;
+	public int skillPowerStrikeCD;
+
+	public int skillFireball;
+	public int skillFireballCD;
+
+	public int skillFocus;
+	public int skillFocusCD;
+
+	public int skillauraShock;
+	public int skillauraShockCD;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -52,6 +72,9 @@ public class PlayerStats : MonoBehaviour {
 			currentExp -= expNeedToLvl;	//Reset Exp bar and keep extra exp
 
 			expNeedToLvl = expNeedToLvl * 2; //Double exp need for next lvl;
+
+			var clone = (GameObject)Instantiate (damageNumber, hitPoint.position, hitPoint.rotation);
+			clone.GetComponent<FloatingNumbers> ().damageNum = "LevelUp!!";
 		}
 }
 

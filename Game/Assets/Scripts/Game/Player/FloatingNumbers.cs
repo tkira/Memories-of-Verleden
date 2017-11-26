@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class FloatingNumbers : MonoBehaviour {
 
 	public float moveSpeed;
-	public int damageNum;
+	public string damageNum;
 	public Text displayNumber;
 
 	// Use this for initialization

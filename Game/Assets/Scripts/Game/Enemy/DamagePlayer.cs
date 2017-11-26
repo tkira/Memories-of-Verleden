@@ -17,11 +17,7 @@ public class DamagePlayer : MonoBehaviour {
 	public EnemyBehaviour ene;
 	public MonsterStats monsterStats;
 	public PlayerStats playerStats;
-
-	public float knockBack = 1000;
-
 	public Movement move;
-
 	// Use this for initialization
 	void Start () {
 		damage = monsterStats.monsterDamage;
@@ -46,24 +42,20 @@ public class DamagePlayer : MonoBehaviour {
 				} else {
 					convertedDam = monsterStats.monsterDamage;
 				}
+					
+				Vector2 direction = (other.transform.position - transform.position).normalized;
 
-
-				//KnockBack WIP
-				//Vector2 direction = (transform.position - other.transform.position).normalized;
-
-				//other.GetComponent<Rigidbody2D>().AddForce (direction * knockBack);
-
+				other.GetComponent<Rigidbody2D>().AddForce (direction * move.playerKnockBackStrength);
 
 				Debug.Log (armorRating);
 				Debug.Log (reducedDamage);
 				Debug.Log (finalDamageOutput);
 				Debug.Log (convertedDam);
 
-
 				other.gameObject.GetComponent<PlayerHealthSystem> ().HurtPlayer (convertedDam);
 				Instantiate (damageEffect, hitPoint.position, hitPoint.rotation);
 				var clone = (GameObject)Instantiate (damageNumber, hitPoint.position, hitPoint.rotation);
-				clone.GetComponent<FloatingNumbers> ().damageNum = convertedDam;
+				clone.GetComponent<FloatingNumbers> ().damageNum = convertedDam.ToString();
 				StartCoroutine (delay ());
 			}
 		}

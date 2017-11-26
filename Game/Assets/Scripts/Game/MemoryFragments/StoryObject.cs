@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class StoryObject : MonoBehaviour {
 
 	public int storyNumber;
-
 	public FragmentMemoryManager memoryManager;
 
 	public string storyName;
@@ -25,6 +24,14 @@ public class StoryObject : MonoBehaviour {
 
 
 
+	}
+
+	public void activate1(){
+		Debug.Log ("Yea");
+		memoryManager.StartStory (storyNumber);
+		realmText.text = realm;
+		titleText.text = storyName;
+		storyText.text = story;
 	}
 		
 	void OnTriggerEnter2D (Collider2D other){

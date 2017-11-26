@@ -10,6 +10,7 @@ public class DialogueHolder : MonoBehaviour {
 	private QuestManager questManager;
 
 	public GameObject question;
+	public GameObject mark;
 
 	public Sprite avatar; 
 
@@ -20,6 +21,13 @@ public class DialogueHolder : MonoBehaviour {
 	public bool[] displayChar;
 	public string[] names;
 
+	public bool finishChat;
+	public string[] dialogLine2;
+	public bool[] displayChar2;
+	public string[] names2;
+
+	public bool hasStory;
+
 	// Use this for initialization
 	void Start () {
 		dialogManager = FindObjectOfType<DialogManager> ();
@@ -27,35 +35,56 @@ public class DialogueHolder : MonoBehaviour {
 		if (hasQuest == true) {
 			question.SetActive (true);
 		}
+		finishChat = false;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (hasStory) {
+			if (hasQuest && questManager.questActive == false) {
+				questManager.questActive = true;
+				questManager.StartQuest (questNo);
+			}
+				dialogManager.dialogLines = dialogLine;
+				dialogManager.names = names;
+				dialogManager.displayChar = displayChar;
+				dialogManager.currentLine = 0;
+				dialogManager.avatar = avatar;
+			dialogManager.showDialogue ();
+			gameObject.SetActive (false);
+		}
 	}
 
 	void OnTriggerStay2D(Collider2D other){
-
 		if (other.gameObject.name == "Player") {
 			Debug.Log ("Activating");
 			if (Input.GetKeyUp (KeyCode.Space)) {
 				//dialogManager.showBox (dialogue);
 
 				if (!dialogManager.dialogActive) {
-					dialogManager.dialogLines = dialogLine;
-					dialogManager.names = names;
-					dialogManager.displayChar = displayChar;
-					dialogManager.currentLine = 0;
-					dialogManager.avatar = avatar;
-
-					if(hasQuest && questManager.questActive == false){
-						questManager.questActive = true;
-						questManager.StartQuest (questNo);
+					if (finishChat) {
+						dialogManager.dialogLines = dialogLine2;
+						dialogManager.names = names2;
+						dialogManager.displayChar = displayChar2;
+						dialogManager.currentLine = 0;
+						dialogManager.avatar = avatar;
+					} else {
+						dialogManager.dialogLines = dialogLine;
+						dialogManager.names = names;
+						dialogManager.displayChar = displayChar;
+						dialogManager.currentLine = 0;
+						dialogManager.avatar = avatar;
+						finishChat = true;
 					}
-
+						if (hasQuest && questManager.questActive == false) {
+							questManager.questActive = true;
+							questManager.StartQuest (questNo);
+						}
+					}
 					dialogManager.showDialogue ();
 				}
+
 			}
 		}
 	}
-}
+

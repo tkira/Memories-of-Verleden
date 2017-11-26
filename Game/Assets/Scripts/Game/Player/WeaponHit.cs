@@ -37,11 +37,17 @@ public class WeaponHit : MonoBehaviour {
 				if (chance < playerStat.crit) {
 					calculateDamage = calculateDamage * 2;
 				}
-
+			
 				other.gameObject.GetComponent<MonsterStats> ().HurtMonster ((int)calculateDamage);
 				var clone = (GameObject)Instantiate (damageNumber, hitPoint.position, hitPoint.rotation);
-				clone.GetComponent<FloatingNumbers> ().damageNum = (int)calculateDamage;
+				clone.GetComponent<FloatingNumbers> ().damageNum = calculateDamage.ToString();
 				weap.keyDelay = false;
+
+				Vector2 direction = (other.transform.position - transform.position).normalized;
+
+				other.GetComponent<Rigidbody2D>().AddForce (direction * other.GetComponent<EnemyBehaviour> ().knockBackStrength);
+
+				other.GetComponent<EnemyBehaviour> ().knocked = true;
 
 				if (playerStat.powerBar < 100) {
 					playerStat.powerBar = playerStat.powerBar + 10; 

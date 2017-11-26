@@ -17,7 +17,9 @@ public class EnemyBehaviour : MonoBehaviour {
 	public float timeToMove;
 	private float timeBetweenMoveCounter;
 	private float timeToMoveCounter;
-	public int knockBack;
+	public int knockBackStrength;
+	public int knockBackStrengthRanged;
+	public bool knocked;
 
 	private Vector3 moveDirection;
 
@@ -34,37 +36,45 @@ public class EnemyBehaviour : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (moving) 
-		{
-			timeToMoveCounter -= Time.deltaTime;
+		if (!knocked) {
+			if (moving) {
+				timeToMoveCounter -= Time.deltaTime;
 
-			rigBod2d.velocity = moveDirection;
+				rigBod2d.velocity = moveDirection;
 
-			if (timeToMoveCounter < 0f) 
-			{
-				moving = false;
-				//timeBetweenMoveCounter = timeBetweenMove;
-				timeBetweenMoveCounter = Random.Range(timeBetweenMove * 0.75f, timeBetweenMove * 1.25f);
-			}
-		} else {
-			timeBetweenMoveCounter -= Time.deltaTime;
+				if (timeToMoveCounter < 0f) {
+					moving = false;
+					//timeBetweenMoveCounter = timeBetweenMove;
+					timeBetweenMoveCounter = Random.Range (timeBetweenMove * 0.75f, timeBetweenMove * 1.25f);
+				}
+			} else {
+				timeBetweenMoveCounter -= Time.deltaTime;
 
-			rigBod2d.velocity = Vector2.zero;
+				rigBod2d.velocity = Vector2.zero;
 
-			if (timeBetweenMoveCounter < 0f) 
-			{
-				moving = true;
-				//timeToMoveCounter = timeToMove;
-				timeToMoveCounter = Random.Range (timeToMove * 0.75f, timeBetweenMove * 1.25f);
+				if (timeBetweenMoveCounter < 0f) {
+					moving = true;
+					//timeToMoveCounter = timeToMove;
+					timeToMoveCounter = Random.Range (timeToMove * 0.75f, timeBetweenMove * 1.25f);
 
-				moveDirection = new Vector3 (Random.Range (-1f, 1f) * moveSpeed, Random.Range (-1f, 1f) * moveSpeed, 0f);
+					moveDirection = new Vector3 (Random.Range (-1f, 1f) * moveSpeed, Random.Range (-1f, 1f) * moveSpeed, 0f);
+				}
 			}
 		}
 
 
 		if (Vector2.Distance (transform.position, Player.position) <= argroRange && attacked == false) {
 			moving = false;
-			transform.position = Vector2.MoveTowards (transform.position, Player.position, moveSpeed * Time.deltaTime);
+			if (!knocked) {
+				transform.position = Vector2.MoveTowards (transform.position, Player.position, moveSpeed * Time.deltaTime);
+			} else {
+				StartCoroutine(resetKnocked ());
+			}
 		}
+	}
+
+	IEnumerator resetKnocked(){
+		yield return new WaitForSeconds (0.5f);
+		knocked = false;
 	}
 }

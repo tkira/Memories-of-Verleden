@@ -7,8 +7,11 @@ using LitJson;
 
 public class SaveManager : MonoBehaviour {
 
+	string ss = "Test2";
+
 	public PlayerData playerData;
 	public PlayerStats playerStats;
+	public StoryManager storyManager;
 
 	public FragmentMemoryManager memoryManager;
 
@@ -25,6 +28,26 @@ public class SaveManager : MonoBehaviour {
 		jsonData = JsonMapper.ToJson (playerData);
 		File.WriteAllText (Application.dataPath + "/save.json", jsonData.ToString ());
         Debug.Log(jsonData);
+	}
+
+	public void SaveDataDB()
+	{	
+		WWWForm form = new WWWForm ();
+		form.AddField ("a", ss);
+		form.AddField ("b", 2);
+		form.AddField ("c", 4);
+		form.AddField ("d", 6);
+
+		WWW www = new WWW ("localhost/Memories_Of_Verleden/PlayerSaveInsert.php", form);
+		Debug.Log("SaveDB");
+	}
+
+	public IEnumerator LoadDataDB()
+	{	
+		WWW playerDataDB = new WWW ("http://localhost/Memories_Of_Verleden/PlayerSave.php");
+		yield return playerDataDB;
+		string playerDataString = playerDataDB.text;
+
 	}
 
 	public void LoadData()
@@ -61,6 +84,8 @@ public class SaveManager : MonoBehaviour {
 		playerData.maxHealth = playerStats.maxHealth;
 		playerData.playerCurrentHealth = playerStats.playerCurrentHealth;
 		playerData.storiesCollected = memoryManager.storiesCollected;
+		playerData.arcCompleted = storyManager.arcCompleted;
+		playerData.memoryCount = playerStats.memoryCount;
 	}
 
 	public void LoadPlayer(){
@@ -88,6 +113,7 @@ public class SaveManager : MonoBehaviour {
 		playerStats.maxHealth = playerData.maxHealth;
 		playerStats.playerCurrentHealth = playerData.playerCurrentHealth;
 		memoryManager.storiesCollected = playerData.storiesCollected;
-	
+		storyManager.arcCompleted = playerData.arcCompleted;
+		playerStats.memoryCount = playerData.memoryCount;
 	}
 }
