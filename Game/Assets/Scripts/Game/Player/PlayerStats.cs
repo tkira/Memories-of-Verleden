@@ -36,9 +36,6 @@ public class PlayerStats : MonoBehaviour {
 
 	public int memoryCount;
 
-	public Transform hitPoint;
-	public GameObject damageNumber;
-
 	public int skillHeal;
 	public int skillHealCD;
 
@@ -54,18 +51,41 @@ public class PlayerStats : MonoBehaviour {
 	public int skillauraShock;
 	public int skillauraShockCD;
 
+	private bool regenActiveP;
+	private bool regenActiveH;
+
+	public GameObject lvlUP;
+	public Transform hitPoint;
+
 	// Use this for initialization
 	void Start () {
-		
+		regenActiveH = false;
+		regenActiveP = false;
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		if (powerBar < 100 && !regenActiveP) {
+			regenActiveP = true;
+			StartCoroutine (regenPower ());
+		} else if (powerBar > 100) {
+			powerBar = 100;
+		}
+			
+		if (playerCurrentHealth < maxHealth && !regenActiveH) {
+			regenActiveH = true;
+			StartCoroutine (regenPower ());
+		} else if (playerCurrentHealth > maxHealth){
+			playerCurrentHealth = maxHealth;
+		}
+			
 		if (currentExp >= expNeedToLvl){
 			currentLvl++;
 			maxHealth += 10; 
 			statPoints += 5; 
 			gameObject.GetComponent<PlayerHealthSystem> ().SetMaxHealth ();
+
+			var clone = (GameObject)Instantiate (lvlUP, hitPoint.position, hitPoint.rotation);
 
 			arua.lvlUp = true;
 
@@ -73,10 +93,24 @@ public class PlayerStats : MonoBehaviour {
 
 			expNeedToLvl = expNeedToLvl * 2; //Double exp need for next lvl;
 
-			var clone = (GameObject)Instantiate (damageNumber, hitPoint.position, hitPoint.rotation);
-			clone.GetComponent<FloatingNumbers> ().damageNum = "LevelUp!!";
 		}
 }
+
+	IEnumerator regenPower(){
+		while (powerBar < 100) {
+			yield return new WaitForSeconds(1);
+			powerBar = powerBar + 1;
+		}
+		regenActiveP = false;
+	}
+
+	IEnumerator regenHealth(){
+		while (playerCurrentHealth < maxHealth) {
+			yield return new WaitForSeconds(1);
+			playerCurrentHealth = playerCurrentHealth + 1;
+		}
+		regenActiveH = false;
+	}
 
 	public void addStrength(){
 		Strength++;
