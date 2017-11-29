@@ -33,7 +33,7 @@ public class UIMenu : MonoBehaviour {
 	}
 
 	public void loadGame(){
-
+		SceneManager.LoadScene ("Main");
 	}
 
 }

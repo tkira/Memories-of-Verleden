@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
+using UnityEngine.UI;
 using LitJson;
 
 public class SaveManager : MonoBehaviour {
@@ -13,16 +14,31 @@ public class SaveManager : MonoBehaviour {
 	public PlayerStats playerStats;
 	public StoryManager storyManager;
 
+	public GameObject loadPrompt;
+	public GameObject menu;
+
+	public Image image;
+	public GameObject image2;
+
 	public FragmentMemoryManager memoryManager;
 
 	JsonData jsonData;
+
 
 	void OnEnable(){
 		playerData = new PlayerData ();
 	}
 
+	void Awake(){
+		if (LoadCheck.gameLoad) {
+			LoadData ();
+			LoadCheck.gameLoad = false;
+		}
+	}
+
 	public void SaveData()
 	{	
+		
 		SavePlayer ();
 
 		jsonData = JsonMapper.ToJson (playerData);
@@ -52,11 +68,7 @@ public class SaveManager : MonoBehaviour {
 
 	public void LoadData()
 	{
-		string loadData = File.ReadAllText(Application.dataPath + "/save.json");
-
-		playerData = JsonUtility.FromJson<PlayerData> (loadData);
-
-		LoadPlayer ();
+		startLoad ();
 	}
 
 	public void SavePlayer(){
@@ -86,6 +98,10 @@ public class SaveManager : MonoBehaviour {
 		playerData.storiesCollected = memoryManager.storiesCollected;
 		playerData.arcCompleted = storyManager.arcCompleted;
 		playerData.memoryCount = playerStats.memoryCount;
+
+		playerData.posX = playerStats.playerPos.position.x;
+		playerData.posZ = playerStats.playerPos.position.z;
+		playerData.posY = playerStats.playerPos.position.y;
 	}
 
 	public void LoadPlayer(){
@@ -115,5 +131,50 @@ public class SaveManager : MonoBehaviour {
 		memoryManager.storiesCollected = playerData.storiesCollected;
 		storyManager.arcCompleted = playerData.arcCompleted;
 		playerStats.memoryCount = playerData.memoryCount;
+
+		playerStats.playerPos.position = new Vector3((float)playerData.posX, (float)playerData.posY,(float)playerData.posZ);
+
+	}
+
+	public void startLoad(){
+		image2.SetActive (true);
+		loadPrompt.SetActive (false);
+		menu.SetActive (false);
+		StartCoroutine(FadeOut(2f, image));
+		StartCoroutine(timer());
+	}
+
+	public IEnumerator FadeOut(float t, Image i){
+		i.color = new Color(i.color.r, i.color.g, i.color.b, 0);
+		while (i.color.a < 1.0f)
+		{
+			i.color = new Color(i.color.r, i.color.g, i.color.b, i.color.a + (Time.deltaTime / t));
+			yield return null;
+		}
+	}
+
+	IEnumerator timer(){
+		yield return new WaitForSeconds (1);
+		StartCoroutine(FadeIn(0.6f, image));
+		string loadData = File.ReadAllText(Application.dataPath + "/save.json");
+
+		playerData = JsonUtility.FromJson<PlayerData> (loadData);
+
+		LoadPlayer ();
+		StartCoroutine(timer2());
+	}
+
+	IEnumerator timer2(){
+		yield return new WaitForSeconds (0.6f);
+		image2.SetActive (false);
+	}
+
+	public IEnumerator FadeIn(float t, Image i){
+		i.color = new Color(i.color.r, i.color.g, i.color.b, 1);
+		while (i.color.a > 0.0f)
+		{
+			i.color = new Color(i.color.r, i.color.g, i.color.b, i.color.a - (Time.deltaTime / t));
+			yield return null;
+		}
 	}
 }

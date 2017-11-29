@@ -34,7 +34,7 @@ public class PhysicalDamageDealt : MonoBehaviour {
 				//Calculate Damage
 				calculateDamage = playerStat.totalDamage;
 
-				if (skill.focusActive) {
+				if (skill.focusActive == true) {
 					calculateDamage = calculateDamage * 2;
 				}
 

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour {
 
+	public Transform playerPos;
+
 	public int currentLvl;
 	public int currentExp;
 	public int expNeedToLvl;
