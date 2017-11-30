@@ -20,6 +20,10 @@ public class QuestObject : MonoBehaviour {
 	public Text questNameText;
 	public Text questDescriptionText;
 
+	public int questEXP;
+
+	public PlayerStats playerStats;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -37,6 +41,7 @@ public class QuestObject : MonoBehaviour {
 				enemyKillCount++;
 			}
 			if (enemyKillCount >= enemiesToKill) {
+				playerStats.currentExp = playerStats.currentExp + questEXP;
 				questManager.EndQuest (questNumber);
 			}
 			questDescription = ("Kill " + enemiesToKill + " " + targetEnemy + "! (" + enemyKillCount + "/" + enemiesToKill + ")");

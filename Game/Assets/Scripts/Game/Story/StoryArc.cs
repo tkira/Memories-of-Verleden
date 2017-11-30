@@ -27,6 +27,8 @@ public class StoryArc : MonoBehaviour {
 
 	public GameObject arcDisable;
 
+	public GameObject bossTrees;
+
 
 	// Use this for initialization
 	void Start () {
@@ -86,6 +88,7 @@ public class StoryArc : MonoBehaviour {
 			acr3Dia.SetActive (true);
 			acr3DiaHold.hasStory = true;
 			gameObject.SetActive (false);
+			bossTrees.SetActive (false);
 		}
 	}
 }

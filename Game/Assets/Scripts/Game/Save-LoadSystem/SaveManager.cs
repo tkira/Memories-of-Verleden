@@ -145,17 +145,13 @@ public class SaveManager : MonoBehaviour {
 	}
 
 	public IEnumerator FadeOut(float t, Image i){
-		i.color = new Color(i.color.r, i.color.g, i.color.b, 0);
-		while (i.color.a < 1.0f)
-		{
-			i.color = new Color(i.color.r, i.color.g, i.color.b, i.color.a + (Time.deltaTime / t));
-			yield return null;
+		i.color = new Color(i.color.r, i.color.g, i.color.b, 1);
+		return null;
 		}
-	}
 
 	IEnumerator timer(){
 		yield return new WaitForSeconds (1);
-		StartCoroutine(FadeIn(0.6f, image));
+		StartCoroutine(FadeIn(0.3f, image));
 		string loadData = File.ReadAllText(Application.dataPath + "/save.json");
 
 		playerData = JsonUtility.FromJson<PlayerData> (loadData);

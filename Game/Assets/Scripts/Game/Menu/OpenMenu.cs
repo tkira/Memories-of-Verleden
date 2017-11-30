@@ -8,7 +8,6 @@ public class OpenMenu : MonoBehaviour {
 	public GameObject menu;
 	public GameObject journal;
 	public GameObject character;
-	public PauseGame pause;
 	// Use this for initialization
 	void Start () {
 		
@@ -19,10 +18,8 @@ public class OpenMenu : MonoBehaviour {
 		if (Input.GetKeyUp (KeyCode.Escape)) {
 			if (menu.activeInHierarchy == true) {
 				menu.SetActive (false);
-				pause.pauseGame (false);
 			} else {
 				menu.SetActive (true);
-				pause.pauseGame (true);
 			}
 			if (journal.activeInHierarchy == true) {
 					journal.SetActive (false);

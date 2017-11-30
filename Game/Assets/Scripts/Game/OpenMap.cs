@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class OpenMap : MonoBehaviour {
 
-	public PauseGame pause;
 	public GameObject map;
 
 	
@@ -13,10 +12,8 @@ public class OpenMap : MonoBehaviour {
 		if (Input.GetKeyUp (KeyCode.M)) {
 			if (map.activeInHierarchy == true) {
 				map.SetActive (false);
-				pause.pauseGame (false);
 			} else {
 				map.SetActive (true);
-				pause.pauseGame (true);
 			}
 		}
 		}

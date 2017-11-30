@@ -11,7 +11,8 @@ public class OpenJournal : MonoBehaviour {
 
 	public GameObject page;
 
-	public PauseGame pause;
+	public AudioSource openJounal;
+	public AudioSource closeJounal;
 
 	// Use this for initialization
 	void Start () {
@@ -22,12 +23,15 @@ public class OpenJournal : MonoBehaviour {
 	void Update () {
 		if (Input.GetKeyUp (KeyCode.O)) {
 			if (journal.activeInHierarchy == true) {
+				closeJounal.Play();
 				journal.SetActive (false);
-				pause.pauseGame (false);
+
+
 			} else {
+				openJounal.Play();
 				journal.SetActive (true);
 				page.SetActive (false);
-				pause.pauseGame (true);
+
 			}
 			if (character.activeInHierarchy == true) {
 				character.SetActive (false);

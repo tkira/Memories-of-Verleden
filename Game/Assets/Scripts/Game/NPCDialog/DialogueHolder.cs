@@ -28,6 +28,8 @@ public class DialogueHolder : MonoBehaviour {
 
 	public bool hasStory;
 
+	public bool mainStart;
+
 	// Use this for initialization
 	void Start () {
 		dialogManager = FindObjectOfType<DialogManager> ();
@@ -36,6 +38,12 @@ public class DialogueHolder : MonoBehaviour {
 			question.SetActive (true);
 		}
 		finishChat = false;
+
+		if (hasQuest) {
+			if (questManager.questCompleted [questNo] == true) {
+				hasQuest = false;
+			}
+		}
 	}
 	
 	// Update is called once per frame
@@ -51,7 +59,7 @@ public class DialogueHolder : MonoBehaviour {
 				dialogManager.currentLine = 0;
 				dialogManager.avatar = avatar;
 			dialogManager.showDialogue ();
-			gameObject.SetActive (false);
+			hasStory = false;
 		}
 	}
 

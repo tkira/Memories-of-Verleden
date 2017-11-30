@@ -15,8 +15,6 @@ public class QuestManager : MonoBehaviour {
 	public GameObject questname;
 	public GameObject questdescription;
 
-	public GameObject restart;
-
 	// Use this for initialization
 	void Start () {
 		questCompleted = new bool[quests.Length];
@@ -41,6 +39,6 @@ public class QuestManager : MonoBehaviour {
 	public void EndQuest(int questNumber){
 		questCompleted [questNumber] = true;
 		gameObject.SetActive (false);
-		restart.SetActive (true);
+
 	}
 }
