@@ -140,14 +140,9 @@ public class SaveManager : MonoBehaviour {
 		image2.SetActive (true);
 		loadPrompt.SetActive (false);
 		menu.SetActive (false);
-		StartCoroutine(FadeOut(2f, image));
+		image.color = new Color(image.color.r, image.color.g, image.color.b, 1);
 		StartCoroutine(timer());
 	}
-
-	public IEnumerator FadeOut(float t, Image i){
-		i.color = new Color(i.color.r, i.color.g, i.color.b, 1);
-		return null;
-		}
 
 	IEnumerator timer(){
 		yield return new WaitForSeconds (1);

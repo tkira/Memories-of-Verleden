@@ -56,6 +56,10 @@ public class PlayerStats : MonoBehaviour {
 	private bool regenActiveP;
 	private bool regenActiveH;
 
+	public int healPotion;
+	public int healPotionNo;
+	public int healPotionMax;
+
 	public GameObject lvlUP;
 	public Transform hitPoint;
 

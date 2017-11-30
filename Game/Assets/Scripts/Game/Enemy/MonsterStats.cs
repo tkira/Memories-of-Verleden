@@ -15,6 +15,8 @@ public class MonsterStats : MonoBehaviour {
 	public string enemyQuestName;
 	private QuestManager questManager;
 
+	public GameObject healGem;
+
 	// Use this for initialization
 	void Start () {
 		monsterHealth = monsterMaxHealth;
@@ -29,9 +31,11 @@ public class MonsterStats : MonoBehaviour {
 			playerstats.currentExp = playerstats.currentExp + expToGive;
 			playerstats.totalExp = playerstats.totalExp + expToGive;
 
-			DropHandler itemDrop = new DropHandler();
-			Vector3 currentPosition = transform.position;
-			itemDrop.calcDrop (currentPosition);
+			//DropHandler itemDrop = new DropHandler();
+			//Vector3 currentPosition = transform.position;
+			//itemDrop.calcDrop (currentPosition);
+
+			var clone = (GameObject)Instantiate (healGem, transform.position, transform.rotation);
 
 			Destroy (gameObject);
 

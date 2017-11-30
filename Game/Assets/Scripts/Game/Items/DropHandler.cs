@@ -14,7 +14,7 @@ public class DropHandler : MonoBehaviour {
 
 	public void fillLootTables() {
 		items = new ItemList();
-		table1.row[0] = new LootTableRow (15, items.gold, 1);
+		table1.row[0] = new LootTableRow (4, items.gold, 1);
 		table1.row[1] = new LootTableRow (2, items.gem, 1);
 	}
 
@@ -40,17 +40,13 @@ public class DropHandler : MonoBehaviour {
 		Debug.Log(table1.row[num].item.itemName);
 
 
-		GameObject drop = new GameObject ("Drop");
+		GameObject drop = new GameObject (table1.row [num].item.itemName);
 		drop.transform.position = pos;
 		//drop.transform.position = new Vector3 (-5, 15, 0);
-		BoxCollider2D collider = drop.AddComponent<BoxCollider2D>();
-		collider.isTrigger = true;
-		DroppedItem dropped = drop.AddComponent<DroppedItem> ();
 		SpriteRenderer dropRender = drop.AddComponent<SpriteRenderer>();
 		dropRender.sprite = table1.row [num].item.sprite;
 		dropRender.sortingLayerName = "Player";
 
 
 	}
-		
 }

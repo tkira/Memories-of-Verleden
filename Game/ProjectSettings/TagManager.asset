@@ -9,6 +9,7 @@ TagManager:
   - Story
   - Skills
   - Bounds
+  - Collect
   layers:
   - Default
   - TransparentFX
