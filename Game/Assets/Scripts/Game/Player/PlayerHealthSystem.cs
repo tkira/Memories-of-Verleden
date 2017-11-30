@@ -24,6 +24,10 @@ public class PlayerHealthSystem : MonoBehaviour {
 		playerStats.playerCurrentHealth -= damageToGive; 
 	}
 
+	public void HealPlayer(int healthToGive) {
+		playerStats.playerCurrentHealth += healthToGive;
+	}
+
 
 	public void SetMaxHealth(){
 		playerStats.playerCurrentHealth = playerStats.maxHealth;
