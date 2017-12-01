@@ -23,8 +23,8 @@ TagManager:
   - Enemy
   - Arc
   - Flash
-  - 
-  - 
+  - Camera 2
+  - Camera 1
   - Bounds
   - 
   - 
@@ -58,4 +58,7 @@ TagManager:
     locked: 0
   - name: Map
     uniqueID: 423818663
+    locked: 0
+  - name: Minimap
+    uniqueID: 2638783833
     locked: 0

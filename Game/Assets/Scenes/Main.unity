@@ -1724,7 +1724,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 40
   enemyQuestName: Mage
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &56823324
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2450,7 +2450,7 @@ GameObject:
   - component: {fileID: 79716262}
   - component: {fileID: 79716264}
   - component: {fileID: 79716263}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3221,7 +3221,7 @@ GameObject:
   - component: {fileID: 104075299}
   - component: {fileID: 104075301}
   - component: {fileID: 104075300}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6465,7 +6465,7 @@ GameObject:
   - component: {fileID: 178728264}
   - component: {fileID: 178728263}
   - component: {fileID: 178728262}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6921,7 +6921,7 @@ GameObject:
   - component: {fileID: 191241972}
   - component: {fileID: 191241971}
   - component: {fileID: 191241970}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CameraMainMap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6950,7 +6950,7 @@ Camera:
   m_GameObject: {fileID: 191241968}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 0.7405329, g: 0.8455882, b: 0.54092777, a: 1}
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -6966,15 +6966,15 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294959103
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: b642c9b8a24ddc04fb7ccdb4289b31a9, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
-  m_AllowMSAA: 1
+  m_AllowMSAA: 0
   m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
+  m_OcclusionCulling: 0
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
   m_StereoMirrorMode: 0
@@ -7648,7 +7648,7 @@ GameObject:
   - component: {fileID: 201357858}
   - component: {fileID: 201357860}
   - component: {fileID: 201357859}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8026,7 +8026,7 @@ RectTransform:
   m_Children:
   - {fileID: 305640411}
   m_Father: {fileID: 1909886427}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8541,7 +8541,7 @@ GameObject:
   - component: {fileID: 229410685}
   - component: {fileID: 229410687}
   - component: {fileID: 229410686}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9444,7 +9444,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 40
   enemyQuestName: Mage
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &263903294
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10062,7 +10062,7 @@ GameObject:
   - component: {fileID: 293496555}
   - component: {fileID: 293496554}
   - component: {fileID: 293496553}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10928,7 +10928,7 @@ GameObject:
   - component: {fileID: 312135746}
   - component: {fileID: 312135748}
   - component: {fileID: 312135747}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12214,7 +12214,7 @@ GameObject:
   - component: {fileID: 356165858}
   - component: {fileID: 356165860}
   - component: {fileID: 356165859}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12579,7 +12579,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 10
   enemyQuestName: Slime
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &363027743
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12966,7 +12966,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 10
   enemyQuestName: Slime
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &378621284
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13541,7 +13541,7 @@ GameObject:
   - component: {fileID: 392141049}
   - component: {fileID: 392141048}
   - component: {fileID: 392141047}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13624,6 +13624,74 @@ Canvas:
   m_SortingLayerID: 423818663
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &392945962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 392945963}
+  - component: {fileID: 392945965}
+  - component: {fileID: 392945964}
+  m_Layer: 12
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &392945963
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 392945962}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 25.273813, y: 36.105335, z: 36.105335}
+  m_Children: []
+  m_Father: {fileID: 695529780}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1123, y: 1879}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &392945964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 392945962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300008, guid: a036bdcc94034ff4f9c13a90bede4de2, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &392945965
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 392945962}
 --- !u!1 &395135663
 GameObject:
   m_ObjectHideFlags: 0
@@ -14329,7 +14397,7 @@ GameObject:
   - component: {fileID: 408379181}
   - component: {fileID: 408379180}
   - component: {fileID: 408379179}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15295,7 +15363,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 15
   enemyQuestName: Slime
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &450810217
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15664,7 +15732,7 @@ GameObject:
   - component: {fileID: 461340942}
   - component: {fileID: 461340944}
   - component: {fileID: 461340943}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15722,6 +15790,154 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 461340941}
+--- !u!1 &463403312
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 463403313}
+  - component: {fileID: 463403315}
+  - component: {fileID: 463403314}
+  m_Layer: 12
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &463403313
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 463403312}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1630235542}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.000061035156, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &463403314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 463403312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 27
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Tenrs City
+--- !u!222 &463403315
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 463403312}
+--- !u!1 &465302640
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 465302641}
+  - component: {fileID: 465302643}
+  - component: {fileID: 465302642}
+  m_Layer: 12
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &465302641
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 465302640}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 806198496}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.000061035156, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &465302642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 465302640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 27
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Wyas Village
+--- !u!222 &465302643
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 465302640}
 --- !u!1 &468043645
 GameObject:
   m_ObjectHideFlags: 0
@@ -15789,7 +16005,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 15
   enemyQuestName: Slime
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &468043648
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16025,7 +16241,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 15
   enemyQuestName: Slime
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &470810076
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16843,7 +17059,7 @@ Prefab:
     - target: {fileID: 224292482576812388, guid: ad6d02f783ecfac45af0fbe0f5f3522c,
         type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 224292482576812388, guid: ad6d02f783ecfac45af0fbe0f5f3522c,
         type: 2}
@@ -17095,7 +17311,7 @@ GameObject:
   - component: {fileID: 499750585}
   - component: {fileID: 499750587}
   - component: {fileID: 499750586}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17373,7 +17589,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 10
   enemyQuestName: Slime
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &502475905
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18155,7 +18371,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 40
   enemyQuestName: Mage
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &542155432
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19745,7 +19961,7 @@ GameObject:
   - component: {fileID: 570727661}
   - component: {fileID: 570727660}
   - component: {fileID: 570727659}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19895,7 +20111,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 10
   enemyQuestName: Slime
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &573162586
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20064,6 +20280,80 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &581401500
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 581401501}
+  - component: {fileID: 581401503}
+  - component: {fileID: 581401502}
+  m_Layer: 12
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &581401501
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 581401500}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2115035252}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.000061035156, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &581401502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 581401500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 27
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Thas Village
+--- !u!222 &581401503
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 581401500}
 --- !u!1 &581779571
 GameObject:
   m_ObjectHideFlags: 0
@@ -21061,7 +21351,7 @@ GameObject:
   - component: {fileID: 599531191}
   - component: {fileID: 599531193}
   - component: {fileID: 599531192}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21643,7 +21933,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 15
   enemyQuestName: Slime
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &622399774
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -21954,7 +22244,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 15
   enemyQuestName: Slime
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &626726983
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -22334,7 +22624,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 40
   enemyQuestName: Mage
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &636402838
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23195,7 +23485,7 @@ GameObject:
   - component: {fileID: 655276140}
   - component: {fileID: 655276142}
   - component: {fileID: 655276141}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23822,7 +24112,7 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8fdd30eb56a9e4a4da66c886b6320055, type: 3}
-  m_Color: {r: 0.4705882, g: 0.4705882, b: 0.4705882, a: 1}
+  m_Color: {r: 0.4705882, g: 0.4705882, b: 0.4705882, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -23846,6 +24136,75 @@ MonoBehaviour:
   image2: {fileID: 1322792173}
   acrLoad: {fileID: 1838518835}
   arc1: 0
+--- !u!1 &695529779
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 695529780}
+  - component: {fileID: 695529782}
+  - component: {fileID: 695529781}
+  m_Layer: 12
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &695529780
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 695529779}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.054688465, y: 0.060764994, z: 0.060764994}
+  m_Children:
+  - {fileID: 392945963}
+  m_Father: {fileID: 815141915}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 3, y: -2}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &695529781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 695529779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.16470583, g: 0.8235294, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &695529782
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 695529779}
 --- !u!1 &695756489
 GameObject:
   m_ObjectHideFlags: 0
@@ -23856,7 +24215,7 @@ GameObject:
   - component: {fileID: 695756490}
   - component: {fileID: 695756492}
   - component: {fileID: 695756491}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23981,7 +24340,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 10
   enemyQuestName: Slime
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &697184583
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24162,7 +24521,7 @@ GameObject:
   - component: {fileID: 700336020}
   - component: {fileID: 700336019}
   - component: {fileID: 700336018}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25501,7 +25860,7 @@ GameObject:
   - component: {fileID: 729759634}
   - component: {fileID: 729759636}
   - component: {fileID: 729759635}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25606,7 +25965,7 @@ GameObject:
   - component: {fileID: 737428822}
   - component: {fileID: 737428821}
   - component: {fileID: 737428820}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26741,7 +27100,7 @@ GameObject:
   - component: {fileID: 759331711}
   - component: {fileID: 759331713}
   - component: {fileID: 759331712}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26899,7 +27258,7 @@ GameObject:
   - component: {fileID: 761237920}
   - component: {fileID: 761237919}
   - component: {fileID: 761237918}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27353,7 +27712,7 @@ GameObject:
   - component: {fileID: 775227631}
   - component: {fileID: 775227633}
   - component: {fileID: 775227632}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27421,7 +27780,7 @@ GameObject:
   - component: {fileID: 775988343}
   - component: {fileID: 775988345}
   - component: {fileID: 775988344}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28113,12 +28472,12 @@ Prefab:
     - target: {fileID: 224314960918117708, guid: 9353a32f5b456754b881044b0c39bff0,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.6100006
       objectReference: {fileID: 0}
     - target: {fileID: 224314960918117708, guid: 9353a32f5b456754b881044b0c39bff0,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.047000885
       objectReference: {fileID: 0}
     - target: {fileID: 224314960918117708, guid: 9353a32f5b456754b881044b0c39bff0,
         type: 2}
@@ -28207,6 +28566,75 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9353a32f5b456754b881044b0c39bff0, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &806198495
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 806198496}
+  - component: {fileID: 806198498}
+  - component: {fileID: 806198497}
+  m_Layer: 12
+  m_Name: Panel (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &806198496
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 806198495}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.4722, y: 0.4722, z: 0.4722}
+  m_Children:
+  - {fileID: 465302641}
+  m_Father: {fileID: 1759742365}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 119.4, y: 165.3}
+  m_SizeDelta: {x: 60, y: -70}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &806198497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 806198495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.791}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &806198498
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 806198495}
 --- !u!1 &814646751
 GameObject:
   m_ObjectHideFlags: 0
@@ -28311,7 +28739,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 15
   enemyQuestName: Slime
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &814689454
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -28481,6 +28909,100 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &815141914
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 815141915}
+  - component: {fileID: 815141918}
+  - component: {fileID: 815141917}
+  - component: {fileID: 815141916}
+  m_Layer: 12
+  m_Name: Canvas (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &815141915
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 815141914}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 62.230778}
+  m_LocalScale: {x: 0.062400002, y: 0.064330764, z: 0.064330764}
+  m_Children:
+  - {fileID: 695529780}
+  m_Father: {fileID: 1909886427}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -0.046592385, y: 0.13686371}
+  m_SizeDelta: {x: 170, y: 170}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &815141916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 815141914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &815141917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 815141914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &815141918
+Canvas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 815141914}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 191241972}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 423818663
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &815404246
 GameObject:
   m_ObjectHideFlags: 0
@@ -28600,7 +29122,7 @@ GameObject:
   - component: {fileID: 819892608}
   - component: {fileID: 819892607}
   - component: {fileID: 819892606}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28889,7 +29411,7 @@ GameObject:
   - component: {fileID: 831474973}
   - component: {fileID: 831474975}
   - component: {fileID: 831474974}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29595,7 +30117,7 @@ GameObject:
   - component: {fileID: 849181031}
   - component: {fileID: 849181030}
   - component: {fileID: 849181029}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29894,7 +30416,7 @@ GameObject:
   - component: {fileID: 856150245}
   - component: {fileID: 856150247}
   - component: {fileID: 856150246}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30180,7 +30702,7 @@ Transform:
   - {fileID: 1026375645}
   - {fileID: 848511994}
   m_Father: {fileID: 1909886427}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &859815469
 GameObject:
@@ -30654,7 +31176,7 @@ GameObject:
   - component: {fileID: 870310928}
   - component: {fileID: 870310930}
   - component: {fileID: 870310929}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31302,7 +31824,7 @@ GameObject:
   - component: {fileID: 892292721}
   - component: {fileID: 892292720}
   - component: {fileID: 892292719}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33503,7 +34025,7 @@ GameObject:
   - component: {fileID: 961721716}
   - component: {fileID: 961721715}
   - component: {fileID: 961721714}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33653,7 +34175,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 40
   enemyQuestName: Mage
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &962095012
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -33908,7 +34430,7 @@ GameObject:
   - component: {fileID: 968317931}
   - component: {fileID: 968317930}
   - component: {fileID: 968317933}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33922,7 +34444,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 968317927}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.8825684, y: 15.121925, z: -19.1}
+  m_LocalPosition: {x: -0.6, y: 15.121925, z: -19.1}
   m_LocalScale: {x: 0.9808192, y: 1.0111536, z: 1.0111536}
   m_Children: []
   m_Father: {fileID: 0}
@@ -33963,10 +34485,10 @@ Camera:
   field of view: 6.2
   orthographic: 1
   orthographic size: 7.03
-  m_Depth: 0
+  m_Depth: 0.53
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294963199
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: e3e30e450d22bd343af86512258f54b7, type: 2}
   m_TargetDisplay: 0
@@ -33974,7 +34496,7 @@ Camera:
   m_HDR: 1
   m_AllowMSAA: 0
   m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
+  m_OcclusionCulling: 0
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
   m_StereoMirrorMode: 0
@@ -34861,7 +35383,7 @@ GameObject:
   - component: {fileID: 990714877}
   - component: {fileID: 990714876}
   - component: {fileID: 990714875}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34955,7 +35477,7 @@ GameObject:
   - component: {fileID: 990940824}
   - component: {fileID: 990940823}
   - component: {fileID: 990940822}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36596,7 +37118,7 @@ GameObject:
   - component: {fileID: 1028849739}
   - component: {fileID: 1028849738}
   - component: {fileID: 1028849737}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36886,7 +37408,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 10
   enemyQuestName: Slime
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &1033643813
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -37781,7 +38303,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 10
   enemyQuestName: Slime
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &1060811143
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -38111,7 +38633,7 @@ GameObject:
   - component: {fileID: 1065555743}
   - component: {fileID: 1065555742}
   - component: {fileID: 1065555741}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38791,7 +39313,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 40
   enemyQuestName: Mage
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &1075344978
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -39099,7 +39621,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 15
   enemyQuestName: Slime
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &1082930185
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -39741,7 +40263,7 @@ GameObject:
   - component: {fileID: 1100135003}
   - component: {fileID: 1100135005}
   - component: {fileID: 1100135004}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40720,7 +41242,7 @@ GameObject:
   - component: {fileID: 1132353857}
   - component: {fileID: 1132353856}
   - component: {fileID: 1132353855}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40870,7 +41392,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 40
   enemyQuestName: Mage
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &1138046097
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -41171,7 +41693,7 @@ GameObject:
   - component: {fileID: 1139468835}
   - component: {fileID: 1139468834}
   - component: {fileID: 1139468833}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41974,7 +42496,7 @@ GameObject:
   - component: {fileID: 1158424808}
   - component: {fileID: 1158424807}
   - component: {fileID: 1158424806}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42068,7 +42590,7 @@ GameObject:
   - component: {fileID: 1158928612}
   - component: {fileID: 1158928611}
   - component: {fileID: 1158928610}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42549,7 +43071,7 @@ GameObject:
   - component: {fileID: 1166061424}
   - component: {fileID: 1166061423}
   - component: {fileID: 1166061422}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43654,7 +44176,7 @@ GameObject:
   - component: {fileID: 1192051520}
   - component: {fileID: 1192051522}
   - component: {fileID: 1192051521}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43859,7 +44381,7 @@ GameObject:
   - component: {fileID: 1199306367}
   - component: {fileID: 1199306369}
   - component: {fileID: 1199306368}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45530,7 +46052,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 40
   enemyQuestName: Mage
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &1268666808
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -45888,7 +46410,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 15
   enemyQuestName: Slime
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &1271111887
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -46068,7 +46590,7 @@ GameObject:
   - component: {fileID: 1272528308}
   - component: {fileID: 1272528307}
   - component: {fileID: 1272528306}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46559,7 +47081,7 @@ GameObject:
   - component: {fileID: 1290858917}
   - component: {fileID: 1290858919}
   - component: {fileID: 1290858918}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46739,7 +47261,7 @@ GameObject:
   - component: {fileID: 1292960351}
   - component: {fileID: 1292960350}
   - component: {fileID: 1292960349}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47035,7 +47557,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 10
   enemyQuestName: Slime
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &1301599198
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -49128,7 +49650,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 40
   enemyQuestName: Mage
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &1335630922
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -49308,7 +49830,7 @@ GameObject:
   - component: {fileID: 1337905664}
   - component: {fileID: 1337905663}
   - component: {fileID: 1337905662}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49851,7 +50373,7 @@ GameObject:
   - component: {fileID: 1354485430}
   - component: {fileID: 1354485429}
   - component: {fileID: 1354485428}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50732,7 +51254,7 @@ GameObject:
   - component: {fileID: 1369017669}
   - component: {fileID: 1369017671}
   - component: {fileID: 1369017670}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51173,7 +51695,7 @@ Transform:
   - {fileID: 1723969359}
   - {fileID: 237372113}
   m_Father: {fileID: 1909886427}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1380514884
 GameObject:
@@ -51389,7 +51911,7 @@ GameObject:
   - component: {fileID: 1392908624}
   - component: {fileID: 1392908626}
   - component: {fileID: 1392908625}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51571,7 +52093,7 @@ GameObject:
   - component: {fileID: 1400047067}
   - component: {fileID: 1400047069}
   - component: {fileID: 1400047068}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52636,7 +53158,7 @@ GameObject:
   - component: {fileID: 1441925565}
   - component: {fileID: 1441925564}
   - component: {fileID: 1441925563}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53428,7 +53950,7 @@ GameObject:
   - component: {fileID: 1458985209}
   - component: {fileID: 1458985208}
   - component: {fileID: 1458985207}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55947,7 +56469,7 @@ GameObject:
   - component: {fileID: 1517479241}
   - component: {fileID: 1517479240}
   - component: {fileID: 1517479239}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56456,7 +56978,7 @@ GameObject:
   - component: {fileID: 1527601173}
   - component: {fileID: 1527601175}
   - component: {fileID: 1527601174}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56846,7 +57368,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 10
   enemyQuestName: Slime
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &1542637206
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -57271,7 +57793,7 @@ GameObject:
   - component: {fileID: 1552655422}
   - component: {fileID: 1552655424}
   - component: {fileID: 1552655423}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57365,6 +57887,80 @@ RectTransform:
   m_AnchoredPosition: {x: -0.7999983, y: 9.5}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1555477655
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1555477656}
+  - component: {fileID: 1555477658}
+  - component: {fileID: 1555477657}
+  m_Layer: 12
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1555477656
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1555477655}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1719343960}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.000061035156, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1555477657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1555477655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 27
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Venta Town
+--- !u!222 &1555477658
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1555477655}
 --- !u!1 &1555656304
 GameObject:
   m_ObjectHideFlags: 0
@@ -58140,7 +58736,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 80
   enemyQuestName: Mage
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &1572664355
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -58465,7 +59061,7 @@ GameObject:
   - component: {fileID: 1576182182}
   - component: {fileID: 1576182181}
   - component: {fileID: 1576182180}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59107,7 +59703,7 @@ GameObject:
   - component: {fileID: 1605098483}
   - component: {fileID: 1605098482}
   - component: {fileID: 1605098481}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59863,6 +60459,75 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1628744646}
+--- !u!1 &1630235541
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1630235542}
+  - component: {fileID: 1630235544}
+  - component: {fileID: 1630235543}
+  m_Layer: 12
+  m_Name: Panel (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1630235542
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1630235541}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.4722, y: 0.4722, z: 0.4722}
+  m_Children:
+  - {fileID: 463403313}
+  m_Father: {fileID: 1759742365}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -139, y: 206}
+  m_SizeDelta: {x: 60, y: -70}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1630235543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1630235541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.791}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1630235544
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1630235541}
 --- !u!1 &1630949769
 GameObject:
   m_ObjectHideFlags: 0
@@ -60132,7 +60797,7 @@ GameObject:
   - component: {fileID: 1643547874}
   - component: {fileID: 1643547873}
   - component: {fileID: 1643547872}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60303,7 +60968,7 @@ GameObject:
   - component: {fileID: 1646914092}
   - component: {fileID: 1646914094}
   - component: {fileID: 1646914093}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60643,7 +61308,7 @@ GameObject:
   - component: {fileID: 1653563474}
   - component: {fileID: 1653563476}
   - component: {fileID: 1653563475}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60768,7 +61433,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 40
   enemyQuestName: Mage
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &1656131186
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -61357,7 +62022,7 @@ GameObject:
   - component: {fileID: 1687197919}
   - component: {fileID: 1687197918}
   - component: {fileID: 1687197917}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61437,7 +62102,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 423818663
+  m_SortingLayerID: -1656183463
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!1 &1694560184
@@ -61653,7 +62318,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 10
   enemyQuestName: Slime
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &1702652047
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -62056,6 +62721,75 @@ Transform:
   m_Father: {fileID: 1199287001}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1719343959
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1719343960}
+  - component: {fileID: 1719343962}
+  - component: {fileID: 1719343961}
+  m_Layer: 12
+  m_Name: Panel (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1719343960
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1719343959}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.4722, y: 0.4722, z: 0.4722}
+  m_Children:
+  - {fileID: 1555477656}
+  m_Father: {fileID: 1759742365}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -49.5, y: -33.9}
+  m_SizeDelta: {x: 60, y: -70}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1719343961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1719343959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.791}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1719343962
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1719343959}
 --- !u!1 &1720337082
 GameObject:
   m_ObjectHideFlags: 0
@@ -62490,7 +63224,7 @@ GameObject:
   - component: {fileID: 1730431196}
   - component: {fileID: 1730431198}
   - component: {fileID: 1730431197}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63278,7 +64012,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 40
   enemyQuestName: Mage
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &1746668080
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -63635,7 +64369,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 40
   enemyQuestName: Mage
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &1753279562
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -63886,7 +64620,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1759742365
 RectTransform:
   m_ObjectHideFlags: 0
@@ -63899,6 +64633,10 @@ RectTransform:
   m_Children:
   - {fileID: 1055316504}
   - {fileID: 1249660112}
+  - {fileID: 2115035252}
+  - {fileID: 1719343960}
+  - {fileID: 806198496}
+  - {fileID: 1630235542}
   m_Father: {fileID: 957784560}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -64068,7 +64806,7 @@ GameObject:
   - component: {fileID: 1764006707}
   - component: {fileID: 1764006706}
   - component: {fileID: 1764006705}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64832,7 +65570,7 @@ GameObject:
   - component: {fileID: 1770241673}
   - component: {fileID: 1770241675}
   - component: {fileID: 1770241674}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65117,7 +65855,7 @@ GameObject:
   - component: {fileID: 1782323249}
   - component: {fileID: 1782323248}
   - component: {fileID: 1782323247}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65424,7 +66162,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 15
   enemyQuestName: Slime
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &1793327138
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -65660,7 +66398,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 10
   enemyQuestName: Slime
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &1793453319
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -66187,7 +66925,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 40
   enemyQuestName: Mage
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &1813724566
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -66576,7 +67314,7 @@ GameObject:
   - component: {fileID: 1835616239}
   - component: {fileID: 1835616238}
   - component: {fileID: 1835616237}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67233,7 +67971,7 @@ GameObject:
   - component: {fileID: 1839332272}
   - component: {fileID: 1839332274}
   - component: {fileID: 1839332273}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68067,7 +68805,7 @@ GameObject:
   - component: {fileID: 1874227495}
   - component: {fileID: 1874227494}
   - component: {fileID: 1874227493}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68316,7 +69054,7 @@ GameObject:
   - component: {fileID: 1882251409}
   - component: {fileID: 1882251411}
   - component: {fileID: 1882251410}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68384,7 +69122,7 @@ GameObject:
   - component: {fileID: 1886367498}
   - component: {fileID: 1886367500}
   - component: {fileID: 1886367499}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68548,7 +69286,7 @@ Transform:
   m_LocalScale: {x: 0.23495635, y: 0.37972736, z: 0.8934765}
   m_Children: []
   m_Father: {fileID: 1909886427}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1890200918
 GameObject:
@@ -68828,7 +69566,7 @@ GameObject:
   - component: {fileID: 1893340948}
   - component: {fileID: 1893340947}
   - component: {fileID: 1893340946}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69124,7 +69862,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 15
   enemyQuestName: Slime
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &1896474857
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -69624,7 +70362,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 15
   enemyQuestName: Slime
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &1904373601
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -69803,7 +70541,7 @@ GameObject:
   - component: {fileID: 1905129733}
   - component: {fileID: 1905129735}
   - component: {fileID: 1905129734}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70023,7 +70761,7 @@ Transform:
   - {fileID: 1251638173}
   - {fileID: 1374375725}
   m_Father: {fileID: 1909886427}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1908773734
 MonoBehaviour:
@@ -70217,6 +70955,7 @@ Transform:
   m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
   m_Children:
   - {fileID: 1687197916}
+  - {fileID: 815141915}
   - {fileID: 1908773733}
   - {fileID: 859038275}
   - {fileID: 1887784369}
@@ -71034,7 +71773,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 10
   enemyQuestName: Slime
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &1950059757
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -72032,7 +72771,7 @@ GameObject:
   - component: {fileID: 1979533456}
   - component: {fileID: 1979533455}
   - component: {fileID: 1979533454}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73323,7 +74062,7 @@ GameObject:
   - component: {fileID: 2029794743}
   - component: {fileID: 2029794745}
   - component: {fileID: 2029794744}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73732,7 +74471,7 @@ GameObject:
   - component: {fileID: 2040099772}
   - component: {fileID: 2040099771}
   - component: {fileID: 2040099770}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MapIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75290,7 +76029,7 @@ GameObject:
   - component: {fileID: 2082605532}
   - component: {fileID: 2082605534}
   - component: {fileID: 2082605533}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75778,7 +76517,7 @@ GameObject:
   - component: {fileID: 2104364605}
   - component: {fileID: 2104364607}
   - component: {fileID: 2104364606}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76174,7 +76913,7 @@ MonoBehaviour:
   playerstats: {fileID: 1909886422}
   expToGive: 15
   enemyQuestName: Slime
-  healGem: {fileID: 0}
+  healGem: {fileID: 1062922917269634, guid: f78b527f150eac447a4c214fd9d449bc, type: 2}
 --- !u!58 &2112756545
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -76343,6 +77082,75 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &2115035251
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2115035252}
+  - component: {fileID: 2115035254}
+  - component: {fileID: 2115035253}
+  m_Layer: 12
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2115035252
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2115035251}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.4722035, y: 0.4722035, z: 0.4722035}
+  m_Children:
+  - {fileID: 581401501}
+  m_Father: {fileID: 1759742365}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 163.40001, y: -151.4}
+  m_SizeDelta: {x: 60, y: -70}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2115035253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2115035251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.791}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &2115035254
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2115035251}
 --- !u!1 &2115326959
 GameObject:
   m_ObjectHideFlags: 0
@@ -76636,7 +77444,7 @@ GameObject:
   - component: {fileID: 2119821461}
   - component: {fileID: 2119821463}
   - component: {fileID: 2119821462}
-  m_Layer: 14
+  m_Layer: 13
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
