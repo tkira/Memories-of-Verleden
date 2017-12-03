@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class PlayerHealthSystem : MonoBehaviour {
 
 	public PlayerStats playerStats;
+	public SaveManager playerSave;
 
 	// Use this for initialization
 	void Start () {
@@ -16,7 +17,8 @@ public class PlayerHealthSystem : MonoBehaviour {
 	void Update () {
 		if (playerStats.playerCurrentHealth <= 0) {
 			gameObject.SetActive (false);
-			SceneManager.LoadScene(SceneManager.GetActiveScene().name); // loads current scene
+			playerSave.LoadData ();
+			//SceneManager.LoadScene(SceneManager.GetActiveScene().name); // loads current scene
 		}
 	}
 
