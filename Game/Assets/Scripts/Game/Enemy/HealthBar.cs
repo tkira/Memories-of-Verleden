@@ -8,6 +8,7 @@ public class HealthBar : MonoBehaviour {
 	public MonsterStats monsterStat;
 	public Slider healthBarMonster;
 	public Text monsterNameText;
+	public Text monsterHPText;
 	public GameObject monsterBar;
 
 	// Use this for initialization
@@ -20,7 +21,7 @@ public class HealthBar : MonoBehaviour {
 		healthBarMonster.maxValue = monsterStat.monsterMaxHealth;
 		healthBarMonster.value = monsterStat.monsterHealth;
 		monsterNameText.text = "LVL:" + monsterStat.monsterLvl + " " + monsterStat.monsterName;
-
+		monsterHPText.text = "" + monsterStat.monsterHealth + "/" + monsterStat.monsterMaxHealth;
 
 		if (monsterStat.monsterHealth < monsterStat.monsterMaxHealth){
 			monsterBar.SetActive(true);

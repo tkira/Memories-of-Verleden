@@ -3137,6 +3137,7 @@ MonoBehaviour:
   monsterStat: {fileID: 363027742}
   healthBarMonster: {fileID: 1380514886}
   monsterNameText: {fileID: 1187535395}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 57150275}
 --- !u!114 &57150278
 MonoBehaviour:
@@ -3451,6 +3452,7 @@ MonoBehaviour:
   monsterStat: {fileID: 314442756}
   healthBarMonster: {fileID: 1325007568}
   monsterNameText: {fileID: 225391313}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 63035149}
 --- !u!114 &63035152
 MonoBehaviour:
@@ -5371,6 +5373,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1518844688}
   healthBarMonster: {fileID: 842345112}
   monsterNameText: {fileID: 1832254324}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 99678181}
 --- !u!114 &99678184
 MonoBehaviour:
@@ -6064,6 +6067,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1117319973}
   healthBarMonster: {fileID: 1666901517}
   monsterNameText: {fileID: 2069954937}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 112380951}
 --- !u!114 &112380954
 MonoBehaviour:
@@ -7892,6 +7896,7 @@ MonoBehaviour:
   monsterStat: {fileID: 128836289}
   healthBarMonster: {fileID: 64674529}
   monsterNameText: {fileID: 1709531768}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 134732925}
 --- !u!114 &134732928
 MonoBehaviour:
@@ -8002,6 +8007,7 @@ MonoBehaviour:
   monsterStat: {fileID: 56823323}
   healthBarMonster: {fileID: 1404070908}
   monsterNameText: {fileID: 297122651}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 134780692}
 --- !u!114 &134780695
 MonoBehaviour:
@@ -9779,6 +9785,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1813724565}
   healthBarMonster: {fileID: 761128339}
   monsterNameText: {fileID: 848749721}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 160324602}
 --- !u!114 &160324605
 MonoBehaviour:
@@ -11395,6 +11402,7 @@ MonoBehaviour:
   monsterStat: {fileID: 692592377}
   healthBarMonster: {fileID: 1902703615}
   monsterNameText: {fileID: 1063217030}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 192059713}
 --- !u!114 &192059716
 MonoBehaviour:
@@ -13036,6 +13044,7 @@ MonoBehaviour:
   monsterStat: {fileID: 502475904}
   healthBarMonster: {fileID: 1544308279}
   monsterNameText: {fileID: 1601697577}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 220259604}
 --- !u!114 &220259607
 MonoBehaviour:
@@ -13670,6 +13679,7 @@ MonoBehaviour:
   monsterStat: {fileID: 622399773}
   healthBarMonster: {fileID: 1144634649}
   monsterNameText: {fileID: 1717902396}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 242060591}
 --- !u!114 &242060594
 MonoBehaviour:
@@ -13780,6 +13790,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1657755835}
   healthBarMonster: {fileID: 2010495495}
   monsterNameText: {fileID: 2048259898}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 242291286}
 --- !u!114 &242291289
 MonoBehaviour:
@@ -14067,21 +14078,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 2081732381}
   m_Script: {fileID: -113659843, guid: f70555f144d8491a825f0804e09c671c, type: 3}
---- !u!114 &246056129
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 246056126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d597d144ac6542e48b8da5606e4a3c31, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  monsterStat: {fileID: 1119210891}
-  healthBarMonster: {fileID: 246056128}
-  monsterNameText: {fileID: 180010144}
-  monsterBar: {fileID: 246056126}
 --- !u!1 &246628414
 GameObject:
   m_ObjectHideFlags: 0
@@ -15809,6 +15805,7 @@ MonoBehaviour:
   monsterStat: {fileID: 378621283}
   healthBarMonster: {fileID: 1350000995}
   monsterNameText: {fileID: 1720337084}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 291436754}
 --- !u!114 &291436758
 MonoBehaviour:
@@ -18491,6 +18488,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1301599197}
   healthBarMonster: {fileID: 2020455112}
   monsterNameText: {fileID: 297120525}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 331485598}
 --- !u!114 &331485601
 MonoBehaviour:
@@ -20677,6 +20675,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1216146782}
   healthBarMonster: {fileID: 1738497191}
   monsterNameText: {fileID: 96685396}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 364433822}
 --- !u!114 &364433825
 MonoBehaviour:
@@ -22127,6 +22126,7 @@ MonoBehaviour:
   monsterStat: {fileID: 342015772}
   healthBarMonster: {fileID: 1220293751}
   monsterNameText: {fileID: 407063033}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 393015887}
 --- !u!114 &393015890
 MonoBehaviour:
@@ -23102,6 +23102,7 @@ MonoBehaviour:
   monsterStat: {fileID: 468043647}
   healthBarMonster: {fileID: 1362488550}
   monsterNameText: {fileID: 178393668}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 408116797}
 --- !u!114 &408116800
 MonoBehaviour:
@@ -23578,6 +23579,7 @@ MonoBehaviour:
   monsterStat: {fileID: 878188846}
   healthBarMonster: {fileID: 1916010498}
   monsterNameText: {fileID: 2060417378}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 410682570}
 --- !u!114 &410682573
 MonoBehaviour:
@@ -24507,6 +24509,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1082930184}
   healthBarMonster: {fileID: 1495454666}
   monsterNameText: {fileID: 2053058011}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 437939536}
 --- !u!114 &437939540
 MonoBehaviour:
@@ -24617,6 +24620,7 @@ MonoBehaviour:
   monsterStat: {fileID: 593030178}
   healthBarMonster: {fileID: 398865154}
   monsterNameText: {fileID: 595715743}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 439066275}
 --- !u!114 &439066278
 MonoBehaviour:
@@ -24774,6 +24778,7 @@ MonoBehaviour:
   monsterStat: {fileID: 17621676}
   healthBarMonster: {fileID: 774096280}
   monsterNameText: {fileID: 634464870}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 444308001}
 --- !u!114 &444308004
 MonoBehaviour:
@@ -26489,6 +26494,7 @@ MonoBehaviour:
   monsterStat: {fileID: 940112393}
   healthBarMonster: {fileID: 1621241459}
   monsterNameText: {fileID: 914978860}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 465381170}
 --- !u!114 &465381173
 MonoBehaviour:
@@ -29430,6 +29436,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1157301837}
   healthBarMonster: {fileID: 1883541403}
   monsterNameText: {fileID: 507742294}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 516404333}
 --- !u!114 &516404336
 MonoBehaviour:
@@ -30455,6 +30462,7 @@ MonoBehaviour:
   monsterStat: {fileID: 752497687}
   healthBarMonster: {fileID: 1733401065}
   monsterNameText: {fileID: 954098296}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 544024050}
 --- !u!114 &544024053
 MonoBehaviour:
@@ -31403,6 +31411,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1292263673}
   healthBarMonster: {fileID: 94573554}
   monsterNameText: {fileID: 847046315}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 556932887}
 --- !u!114 &556932890
 MonoBehaviour:
@@ -31513,6 +31522,7 @@ MonoBehaviour:
   monsterStat: {fileID: 326082513}
   healthBarMonster: {fileID: 1005361943}
   monsterNameText: {fileID: 1188516875}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 557947596}
 --- !u!114 &557947599
 MonoBehaviour:
@@ -32001,6 +32011,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1973314263}
   healthBarMonster: {fileID: 2137967854}
   monsterNameText: {fileID: 1928356822}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 564076126}
 --- !u!114 &564076129
 MonoBehaviour:
@@ -32111,6 +32122,7 @@ MonoBehaviour:
   monsterStat: {fileID: 450810216}
   healthBarMonster: {fileID: 1831619481}
   monsterNameText: {fileID: 1059169165}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 564187284}
 --- !u!114 &564187287
 MonoBehaviour:
@@ -35351,6 +35363,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1104418566}
   healthBarMonster: {fileID: 914428875}
   monsterNameText: {fileID: 416428634}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 603566912}
 --- !u!114 &603566915
 MonoBehaviour:
@@ -35650,6 +35663,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1374332528}
   healthBarMonster: {fileID: 363587900}
   monsterNameText: {fileID: 359372900}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 612165386}
 --- !u!114 &612165389
 MonoBehaviour:
@@ -37987,6 +38001,7 @@ MonoBehaviour:
   monsterStat: {fileID: 636402837}
   healthBarMonster: {fileID: 1375855477}
   monsterNameText: {fileID: 1482083814}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 644272945}
 --- !u!114 &644272948
 MonoBehaviour:
@@ -38864,6 +38879,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1576741649}
   healthBarMonster: {fileID: 1416161329}
   monsterNameText: {fileID: 1856632759}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 675610944}
 --- !u!114 &675610947
 MonoBehaviour:
@@ -41642,6 +41658,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1572664354}
   healthBarMonster: {fileID: 2087031534}
   monsterNameText: {fileID: 911393833}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 722805593}
 --- !u!114 &722805596
 MonoBehaviour:
@@ -42873,6 +42890,7 @@ MonoBehaviour:
   monsterStat: {fileID: 2112756544}
   healthBarMonster: {fileID: 1789169623}
   monsterNameText: {fileID: 805273790}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 739960258}
 --- !u!114 &739960262
 MonoBehaviour:
@@ -43113,6 +43131,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1746668079}
   healthBarMonster: {fileID: 1931299504}
   monsterNameText: {fileID: 745305941}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 742760655}
 --- !u!114 &742760658
 MonoBehaviour:
@@ -43705,6 +43724,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1793453318}
   healthBarMonster: {fileID: 980855628}
   monsterNameText: {fileID: 567800797}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 749645078}
 --- !u!114 &749645081
 MonoBehaviour:
@@ -50373,6 +50393,7 @@ MonoBehaviour:
   monsterStat: {fileID: 463807439}
   healthBarMonster: {fileID: 1632290762}
   monsterNameText: {fileID: 732710810}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 864444772}
 --- !u!114 &864444775
 MonoBehaviour:
@@ -50798,6 +50819,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1702652046}
   healthBarMonster: {fileID: 422110749}
   monsterNameText: {fileID: 1493123331}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 873201423}
 --- !u!114 &873201427
 MonoBehaviour:
@@ -51378,6 +51400,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1035887238}
   healthBarMonster: {fileID: 951614138}
   monsterNameText: {fileID: 1395874987}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 878828710}
 --- !u!114 &878828713
 MonoBehaviour:
@@ -52403,6 +52426,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1138046096}
   healthBarMonster: {fileID: 1917653013}
   monsterNameText: {fileID: 679282950}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 895543951}
 --- !u!114 &895543954
 MonoBehaviour:
@@ -52518,6 +52542,7 @@ MonoBehaviour:
   monsterStat: {fileID: 542155431}
   healthBarMonster: {fileID: 98119152}
   monsterNameText: {fileID: 1762683164}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 898945795}
 --- !u!114 &898945798
 MonoBehaviour:
@@ -55467,6 +55492,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1238293691}
   healthBarMonster: {fileID: 847837933}
   monsterNameText: {fileID: 2139547572}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 953819231}
 --- !u!114 &953819234
 MonoBehaviour:
@@ -56458,6 +56484,7 @@ MonoBehaviour:
   monsterStat: {fileID: 503189037}
   healthBarMonster: {fileID: 69829849}
   monsterNameText: {fileID: 1711668070}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 966721273}
 --- !u!114 &966721276
 MonoBehaviour:
@@ -57598,6 +57625,7 @@ MonoBehaviour:
   monsterStat: {fileID: 289619479}
   healthBarMonster: {fileID: 171935133}
   monsterNameText: {fileID: 320367200}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 984255826}
 --- !u!114 &984255829
 MonoBehaviour:
@@ -57904,6 +57932,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1033643812}
   healthBarMonster: {fileID: 1072227124}
   monsterNameText: {fileID: 1742033866}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 988104058}
 --- !u!114 &988104062
 MonoBehaviour:
@@ -60792,6 +60821,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1949563966}
   healthBarMonster: {fileID: 1604426880}
   monsterNameText: {fileID: 721230400}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1029172921}
 --- !u!114 &1029172924
 MonoBehaviour:
@@ -62323,6 +62353,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1927394478}
   healthBarMonster: {fileID: 593652947}
   monsterNameText: {fileID: 133710430}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1053866940}
 --- !u!114 &1053866943
 MonoBehaviour:
@@ -63347,6 +63378,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1595736832}
   healthBarMonster: {fileID: 151519866}
   monsterNameText: {fileID: 1436351642}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1061847696}
 --- !u!114 &1061847699
 MonoBehaviour:
@@ -66599,6 +66631,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1192169925}
   healthBarMonster: {fileID: 1378412377}
   monsterNameText: {fileID: 1340200780}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1110752273}
 --- !u!114 &1110752276
 MonoBehaviour:
@@ -67275,6 +67308,8 @@ GameObject:
   - component: {fileID: 1119210893}
   - component: {fileID: 1119210892}
   - component: {fileID: 1119210891}
+  - component: {fileID: 1119210896}
+  - component: {fileID: 1119210895}
   m_Layer: 0
   m_Name: Boss
   m_TagString: Untagged
@@ -67376,6 +67411,52 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1119210895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1119210890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 476cf4aa4f5e9d94c8e4f0a8ce8e06d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 2
+  weap: {fileID: 1909886424}
+  Player: {fileID: 1909886427}
+  argroRange: 20
+  attacked: 0
+  timeBetweenMove: 2
+  timeToMove: 2
+  knockBackStrength: 2000
+  knockBackStrengthRanged: 200
+  knocked: 0
+--- !u!114 &1119210896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1119210890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23218b89d809a2945b1ccc31b736b1af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 300
+  reducedDamage: 0
+  armorRating: 0
+  finalDamageOutput: 0
+  convertedDam: 0
+  damageEffect: {fileID: 1092922977458866, guid: 2262956a1f6614541b5c055dc48de1a8,
+    type: 2}
+  hitPoint: {fileID: 1119210894}
+  damageNumber: {fileID: 1574132785677188, guid: f2f1923248eb96d43b1710eccf167f36,
+    type: 2}
+  ene: {fileID: 1119210895}
+  monsterStats: {fileID: 1119210891}
+  playerStats: {fileID: 1909886422}
+  move: {fileID: 1909886426}
 --- !u!1 &1119221388
 GameObject:
   m_ObjectHideFlags: 0
@@ -67611,6 +67692,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1743446972}
   healthBarMonster: {fileID: 1630905472}
   monsterNameText: {fileID: 1707869003}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1120254415}
 --- !u!114 &1120254418
 MonoBehaviour:
@@ -67721,6 +67803,7 @@ MonoBehaviour:
   monsterStat: {fileID: 753502275}
   healthBarMonster: {fileID: 2126843394}
   monsterNameText: {fileID: 1226124094}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1120767527}
 --- !u!114 &1120767530
 MonoBehaviour:
@@ -67981,6 +68064,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1656131185}
   healthBarMonster: {fileID: 471742132}
   monsterNameText: {fileID: 378052703}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1127029455}
 --- !u!114 &1127029458
 MonoBehaviour:
@@ -68857,6 +68941,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1850825573}
   healthBarMonster: {fileID: 1024946160}
   monsterNameText: {fileID: 222420827}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1144338589}
 --- !u!114 &1144338592
 MonoBehaviour:
@@ -69308,6 +69393,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1268666807}
   healthBarMonster: {fileID: 691764002}
   monsterNameText: {fileID: 1025458573}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1151064103}
 --- !u!114 &1151064106
 MonoBehaviour:
@@ -71169,6 +71255,7 @@ MonoBehaviour:
   monsterStat: {fileID: 626726982}
   healthBarMonster: {fileID: 1502783843}
   monsterNameText: {fileID: 1477096035}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1170128363}
 --- !u!114 &1170128367
 MonoBehaviour:
@@ -73179,6 +73266,7 @@ MonoBehaviour:
   monsterStat: {fileID: 919271071}
   healthBarMonster: {fileID: 1710245654}
   monsterNameText: {fileID: 1598932004}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1213952456}
 --- !u!114 &1213952459
 MonoBehaviour:
@@ -75841,6 +75929,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1585091250}
   healthBarMonster: {fileID: 1080329293}
   monsterNameText: {fileID: 1033478767}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1259722736}
 --- !u!114 &1259722739
 MonoBehaviour:
@@ -76569,6 +76658,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1775538594}
   healthBarMonster: {fileID: 1693506370}
   monsterNameText: {fileID: 1826649491}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1269269494}
 --- !u!114 &1269269497
 MonoBehaviour:
@@ -77131,6 +77221,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1542637205}
   healthBarMonster: {fileID: 273274309}
   monsterNameText: {fileID: 530923359}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1273315379}
 --- !u!114 &1273315382
 MonoBehaviour:
@@ -77343,6 +77434,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1271111886}
   healthBarMonster: {fileID: 1515368086}
   monsterNameText: {fileID: 1303221305}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1278673955}
 --- !u!114 &1278673959
 MonoBehaviour:
@@ -79213,6 +79305,7 @@ MonoBehaviour:
   monsterStat: {fileID: 563331663}
   healthBarMonster: {fileID: 461628997}
   monsterNameText: {fileID: 1986782234}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1305524266}
 --- !u!114 &1305524269
 MonoBehaviour:
@@ -79678,6 +79771,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1904373600}
   healthBarMonster: {fileID: 1999502525}
   monsterNameText: {fileID: 1454450697}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1313946023}
 --- !u!114 &1313946026
 MonoBehaviour:
@@ -82612,6 +82706,7 @@ MonoBehaviour:
   monsterStat: {fileID: 814689453}
   healthBarMonster: {fileID: 1495383148}
   monsterNameText: {fileID: 111269302}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1361303035}
 --- !u!114 &1361303038
 MonoBehaviour:
@@ -82879,6 +82974,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1950059756}
   healthBarMonster: {fileID: 2115326961}
   monsterNameText: {fileID: 768919390}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1365778671}
 --- !u!114 &1365778674
 MonoBehaviour:
@@ -83751,6 +83847,7 @@ MonoBehaviour:
   monsterStat: {fileID: 409519454}
   healthBarMonster: {fileID: 1769645579}
   monsterNameText: {fileID: 1997493036}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1377544089}
 --- !u!114 &1377544092
 MonoBehaviour:
@@ -85772,6 +85869,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1042211073}
   healthBarMonster: {fileID: 922158867}
   monsterNameText: {fileID: 594477749}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1431911228}
 --- !u!114 &1431911231
 MonoBehaviour:
@@ -86722,6 +86820,7 @@ MonoBehaviour:
   monsterStat: {fileID: 697184582}
   healthBarMonster: {fileID: 960151157}
   monsterNameText: {fileID: 1961522034}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1449275747}
 --- !u!114 &1449275750
 MonoBehaviour:
@@ -86978,6 +87077,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1951949482}
   healthBarMonster: {fileID: 703630618}
   monsterNameText: {fileID: 1977049289}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1454246257}
 --- !u!114 &1454246260
 MonoBehaviour:
@@ -89511,6 +89611,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1075344977}
   healthBarMonster: {fileID: 1997173454}
   monsterNameText: {fileID: 299901634}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1501446221}
 --- !u!114 &1501446224
 MonoBehaviour:
@@ -89964,6 +90065,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1793327137}
   healthBarMonster: {fileID: 745800720}
   monsterNameText: {fileID: 716948850}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1506006467}
 --- !u!114 &1506006470
 MonoBehaviour:
@@ -92835,6 +92937,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1335630921}
   healthBarMonster: {fileID: 225332651}
   monsterNameText: {fileID: 180242476}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1556273354}
 --- !u!114 &1556273357
 MonoBehaviour:
@@ -93203,6 +93306,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1753279561}
   healthBarMonster: {fileID: 136858003}
   monsterNameText: {fileID: 2063825422}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1564405032}
 --- !u!114 &1564405035
 MonoBehaviour:
@@ -100174,6 +100278,7 @@ MonoBehaviour:
   monsterStat: {fileID: 2042044042}
   healthBarMonster: {fileID: 686702052}
   monsterNameText: {fileID: 2045011089}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1684135337}
 --- !u!114 &1684135340
 MonoBehaviour:
@@ -100939,6 +101044,7 @@ MonoBehaviour:
   monsterStat: {fileID: 613266905}
   healthBarMonster: {fileID: 350272722}
   monsterNameText: {fileID: 1566539430}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1700689988}
 --- !u!114 &1700689991
 MonoBehaviour:
@@ -105483,6 +105589,7 @@ MonoBehaviour:
   monsterStat: {fileID: 573162585}
   healthBarMonster: {fileID: 1160076391}
   monsterNameText: {fileID: 246628416}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1765968945}
 --- !u!114 &1765968949
 MonoBehaviour:
@@ -105593,6 +105700,7 @@ MonoBehaviour:
   monsterStat: {fileID: 962095011}
   healthBarMonster: {fileID: 1767592725}
   monsterNameText: {fileID: 545202778}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1766631239}
 --- !u!114 &1766631242
 MonoBehaviour:
@@ -113477,6 +113585,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1060811142}
   healthBarMonster: {fileID: 880764033}
   monsterNameText: {fileID: 1063390661}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1903311809}
 --- !u!114 &1903311812
 MonoBehaviour:
@@ -116026,6 +116135,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1596378471}
   healthBarMonster: {fileID: 1721946409}
   monsterNameText: {fileID: 1041262377}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1943652015}
 --- !u!114 &1943652018
 MonoBehaviour:
@@ -118140,6 +118250,7 @@ MonoBehaviour:
   monsterStat: {fileID: 263903293}
   healthBarMonster: {fileID: 1628454063}
   monsterNameText: {fileID: 589026847}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1973516807}
 --- !u!114 &1973516810
 MonoBehaviour:
@@ -118365,6 +118476,7 @@ MonoBehaviour:
   monsterStat: {fileID: 977975067}
   healthBarMonster: {fileID: 1257674672}
   monsterNameText: {fileID: 610177844}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 1977813224}
 --- !u!114 &1977813227
 MonoBehaviour:
@@ -122884,6 +122996,7 @@ MonoBehaviour:
   monsterStat: {fileID: 470810075}
   healthBarMonster: {fileID: 569795152}
   monsterNameText: {fileID: 154513836}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 2061694141}
 --- !u!114 &2061694144
 MonoBehaviour:
@@ -123399,6 +123512,7 @@ MonoBehaviour:
   monsterStat: {fileID: 1896474856}
   healthBarMonster: {fileID: 123616856}
   monsterNameText: {fileID: 1897305860}
+  monsterHPText: {fileID: 0}
   monsterBar: {fileID: 2068972290}
 --- !u!114 &2068972293
 MonoBehaviour:
@@ -123850,6 +123964,19 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 114129597145292530, guid: 1155ec94578730c44beb411f8b66372c,
+        type: 2}
+      propertyPath: monsterStat
+      value: 
+      objectReference: {fileID: 1119210891}
+    - target: {fileID: 1768019037687708, guid: 1155ec94578730c44beb411f8b66372c, type: 2}
+      propertyPath: m_Name
+      value: EnemyHealth(WIP for Boss)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1768019037687708, guid: 1155ec94578730c44beb411f8b66372c, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 224464393766468090, guid: 1155ec94578730c44beb411f8b66372c,
         type: 2}
       propertyPath: m_AnchorMax.x
@@ -123860,61 +123987,6 @@ Prefab:
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1768019037687708, guid: 1155ec94578730c44beb411f8b66372c, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1768019037687708, guid: 1155ec94578730c44beb411f8b66372c, type: 2}
-      propertyPath: m_Name
-      value: EnemyHealth(WIP for Boss)
-      objectReference: {fileID: 0}
-    - target: {fileID: 224464393766468090, guid: 1155ec94578730c44beb411f8b66372c,
-        type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224464393766468090, guid: 1155ec94578730c44beb411f8b66372c,
-        type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114395119546579974, guid: 1155ec94578730c44beb411f8b66372c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 8fdd30eb56a9e4a4da66c886b6320055,
-        type: 3}
-    - target: {fileID: 114456345880093652, guid: 1155ec94578730c44beb411f8b66372c,
-        type: 2}
-      propertyPath: m_Text
-      value: 'BOSS:     GARNAS'
-      objectReference: {fileID: 0}
-    - target: {fileID: 114456345880093652, guid: 1155ec94578730c44beb411f8b66372c,
-        type: 2}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114456345880093652, guid: 1155ec94578730c44beb411f8b66372c,
-        type: 2}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114456345880093652, guid: 1155ec94578730c44beb411f8b66372c,
-        type: 2}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224861559456974638, guid: 1155ec94578730c44beb411f8b66372c,
-        type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1.2981905
-      objectReference: {fileID: 0}
-    - target: {fileID: 114456345880093652, guid: 1155ec94578730c44beb411f8b66372c,
-        type: 2}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: 2b17f2f327c736540b2388cd228fe46d,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1155ec94578730c44beb411f8b66372c, type: 2}
   m_IsPrefabParent: 0

@@ -175,6 +175,7 @@ MonoBehaviour:
   monsterStat: {fileID: 0}
   healthBarMonster: {fileID: 114958647976766316}
   monsterNameText: {fileID: 114456345880093652}
+  monsterHPText: {fileID: 114073845398510328}
   monsterBar: {fileID: 1768019037687708}
 --- !u!114 &114395119546579974
 MonoBehaviour:
