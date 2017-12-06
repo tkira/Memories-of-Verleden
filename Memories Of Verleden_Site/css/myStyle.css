@@ -1,0 +1,285 @@
+/* Container and Wrapper */
+.Mycontainer{
+	width:990px;
+	margin:0 auto;
+	overflow:hidden}
+	
+.dark{color:blue;
+font-weight:strong;
+font-size:25px;}
+
+.te{width:200px; height:200px; }
+/* Header */
+.aButton{
+	position:relative;
+	top:40%;
+	color:#FFD700;
+	background-image:url('../images/buttonnew.png');
+	text-align:center;
+	width:130px;
+	margin:5px;
+	padding:10px;
+	background-size: 278px 70px;
+	overflow:hidden;}
+.dropdown-item{text-shadow:none;background-image:url('../images/buttonnew.png');}
+.Button{
+	color:#FFD700;
+	background-image:url('../images/buttonnew.png');
+	text-align:center;
+	width:180px;
+	margin:5px;
+	padding:10px;
+	background-size: 278px 70px;
+	overflow:hidden;
+	}
+	
+#t_topic{height:100%;}
+
+.bg-dark {
+	background-image: url('../images/brickbig.png');
+	background-size: 50px 100px;
+	text-shadow:2px 2px black;
+	margin:0 auto;
+	}
+	
+header{
+	position: relative;
+	background-image: url("../images/game.jpg");
+	top: 5px;
+	color: gold;
+	border: 2px solid black;
+	background-size: 600px 600px;
+	z-index: 1;
+	height: 200px;
+	overflow:hidden;
+	}
+
+h1{
+   text-align: center;
+   text-shadow: 2px 2px black;
+   position: relative;
+   }
+  
+   
+/* Animation */
+
+	@keyframes slidinginL {
+	from {
+	left: 0px;
+	}
+	to {
+	left: 120px;
+	}
+	}
+
+#KyaryuSlidesLeft {
+	animation-delay:2s;
+	animation-name: slidinginL;
+	animation-duration: 5s;
+}
+
+	@keyframes slidinginR {
+	from {
+	right: 0px;
+	}
+	to {
+	right: 120px;
+	}
+	}
+
+#kyaruSlideRight {
+	animation-delay:2s;
+	animation-name: slidinginR;
+	animation-duration: 5s;
+	}
+
+.header_img_left{
+	z-index: 1;
+	position:absolute;
+	top:100px;
+	left:100px;
+	width:300px;
+	height:150px;
+	overflow:hidden;
+	}
+				 
+.header_img_right{
+	z-index:1;
+	position:absolute;
+	top:100px;
+	right:100px;
+	width:300px;
+	height:150px;
+	overflow:hidden;
+	}
+
+/*element styles */
+p {
+   z-index:1;
+   text-shadow:2px 2px black;
+   color:white;
+   font-size:20px;
+   
+	}
+	
+h3,h2,h1,h4{
+	color:white;
+	margin-left:20px;
+	
+	}
+	
+table {
+	position:relative;
+	margin-left:auto;
+	width:860px;
+	margin-right:auto;
+	}
+
+.full{width:600px; text-shadow:none; }
+
+label{ 
+	position:relative;
+	top:10px;
+	margin-left:2px;
+	width:200px;
+	font-family:Arial;
+	float:left;
+	font-size:23px;
+	line-height:24px;
+	font-weight:bold;}
+
+td{  
+	color:black;
+	position:relative;
+	background-size: 100% 100%;
+	text-align:center;
+	border:3px outset white;
+	padding:15px;
+	font-size:24px;
+	background-image:url('../images/paper.jpg');
+	}
+
+	
+/* Content Section */	
+section{
+	font-family: 'Oxygen', sans-serif;
+	margin-left: 10px;
+	margin-top: 20px;
+	text-align:center;
+	height: 100%;
+	overflow: hidden;
+	background-color: gray;
+	}
+	
+/*Class for the Index Page */
+.HS{
+	background-image:url('../images/try2.png');
+	padding:10px;
+	margin-left:5px;
+	position:relative;
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	height:100%;
+	overflow:hidden;
+	width:100%;
+	margin-left:2px;
+	text-align:center;
+	z-index:1;  
+	
+	}
+	
+
+/*Download Link Button */	
+.ButtonD{
+		color:#FFD700;
+		font-size:42px;
+		background-image:url('../images/buttonnew.png');
+		padding:20px;
+		background-size: 348px 100px;
+		}
+		
+/*Styles for Character and World Pages	*/
+.Subnav{
+		position:relative;
+		text-shadow:2px 2px black;
+		z-index:1;
+		float:left;
+		background-image:url('../images/paper.jpg');
+		width:250px;
+		top:20px;
+		background-size: 200px 850px;
+		height:845px;
+		border: 1px solid black;
+		
+		}
+
+.Snavbar{
+		 position:relative;
+		 left:10px;
+		 padding:10px;
+		 color:gold;
+		 list-style-type:none;}
+	
+.NS{
+	margin-left:5px;
+	position:relative;
+	opacity:0.8;
+	color:white;
+	height:800px;
+	width:100%;
+	margin-left:2px;
+	overflow:scroll;
+	overflow-x:hidden;
+	background-size: 100% 100%;
+	text-align:left;
+	background-image:url('../images/try2.png');
+    text-shadow:2px 2px black;
+	z-index:1;
+	}
+
+#Skills, #Villages, #Story, #Enemies{
+	background-image:url('../images/try2.png');
+	background-size: 100% 100%; margin-bottom:0;
+	background-repeat:no-repeat;
+	padding:30px;
+	}	
+	
+.txtStyle{
+	padding-left:10px;
+	padding-top:3px;
+	text-align:left;
+	background-image:url('../images/try1.png');
+	background-size:970px 50px;
+	width:100%;
+	z-index:2;
+	}
+	
+.txtStyle2{
+			padding-left:10px;
+			padding-top:3px;
+			text-align:left;
+			background-image:url('../images/try3.png');
+			background-size:970px 50px;
+			width:100%;
+			z-index:2;
+			}
+		
+		
+/*Footer Style */
+footer{ 
+	   position:relative;
+	   float:left;
+	   top:10px;
+	   bottom:10px;
+	   background-image:url('../images/footerT.jpg'); 
+	   color: gold;
+	   font-size:30px;
+	   z-index:1;
+	   height: 100px;
+	   width: 100%;
+	   text-align: center;
+	   }
+	   
+	 
+
+	   
